@@ -14,11 +14,15 @@
      （同名频道的多个线路会相邻聚拢）。
 
 规则格式（blacklist.txt 每行）：
-   name:关键字        # 显示名含“关键字”即屏蔽（大小写不敏感）
+   name:关键字        # 显示名【含】“关键字”即屏蔽（默认，大小写不敏感）
+   name$:关键字       # 显示名【以】“关键字”结尾即屏蔽（用于“XX结尾”类需求）
+   name^:关键字       # 显示名【以】“关键字”开头即屏蔽
+   name=:关键字       # 显示名【完全等于】“关键字”才屏蔽
    tvgid:xxx          # tvg-id 含 xxx 即屏蔽
    host:1.2.3.4:port  # 来自该网关的线路即屏蔽（用于剔除坏源）
    group:关键字       # 分组含“关键字”即屏蔽
    纯文本(无前缀)     # 等价于 name:纯文本
+   上述任意前缀均可加 $/^/= 后缀，例如 tvgid$:xxx、host^:1.2.3.
 
 设计要点：黑名单是「用户维护」的，脚本只负责按配置执行，不内置任何硬编码屏蔽项。
 """
@@ -67,7 +71,9 @@ def category_of(name):
 
 
 def parse_rules():
-    """汇总 blacklist.txt 与环境变量里的屏蔽规则。返回 [(kind, value), ...]。"""
+    """汇总 blacklist.txt 与环境变量里的屏蔽规则。返回 [(dim, mod, val), ...]。
+    dim ∈ {name, tvgid, host, group}；mod ∈ {"", "$", "^", "="} 分别表示
+    包含 / 结尾 / 开头 / 完全等于。"""
     rules = []
     # 文件规则
     if os.path.exists(BLACKLIST_FILE):
@@ -77,31 +83,50 @@ def parse_rules():
                 if not line or line.startswith("#"):
                     continue
                 if ":" in line:
-                    kind, val = line.split(":", 1)
-                    kind, val = kind.strip().lower(), val.strip()
-                    if kind in ("name", "tvgid", "host", "group"):
-                        rules.append((kind, val))
+                    head, val = line.split(":", 1)
+                    val = val.strip()
+                    mod = ""
+                    if head.endswith(("$", "^", "=")):
+                        mod = head[-1]
+                        head = head[:-1]
+                    dim = head.strip().lower()
+                    if dim in ("name", "tvgid", "host", "group"):
+                        rules.append((dim, mod, val))
                         continue
-                rules.append(("name", line))
-    # 环境变量临时规则
+                rules.append(("name", "", line))
+    # 环境变量临时规则（逗号分隔，按显示名“包含”）
     for kw in ENV_BLACKLIST.split(","):
         kw = kw.strip()
         if kw:
-            rules.append(("name", kw))
+            rules.append(("name", "", kw))
     return rules
 
 
+def _match(target, mod, val):
+    """按 mod 判定 target 是否命中 val（均小写）。"""
+    if mod == "$":
+        return target.endswith(val)
+    if mod == "^":
+        return target.startswith(val)
+    if mod == "=":
+        return target == val
+    return val in target  # 默认：包含
+
+
 def is_blocked(attrs, name, url, rules):
-    for kind, val in rules:
-        if kind == "name" and val.lower() in name.lower():
-            return True
-        if kind == "tvgid" and val.lower() in (attrs.get("tvg-id", "") or "").lower():
-            return True
-        if kind == "host":
+    for dim, mod, val in rules:
+        if dim == "name":
+            target = name.lower()
+        elif dim == "tvgid":
+            target = (attrs.get("tvg-id", "") or "").lower()
+        elif dim == "host":
             m = re.match(r'https?://([^/]+)/', url)
-            if m and val.lower() in m.group(1).lower():
-                return True
-        if kind == "group" and val.lower() in (attrs.get("group-title", "") or "").lower():
+            target = (m.group(1).lower() if m else "")
+        elif dim == "group":
+            target = (attrs.get("group-title", "") or "").lower()
+        else:
+            continue
+        if _match(target, mod, val.lower()):
             return True
     return False
 
