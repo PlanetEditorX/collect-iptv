@@ -41,7 +41,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # 容器任务的默认工作目录即仓库根目录（checkout 已 cd 至此），无需再 cd
+          # 容器任务里步骤默认 cwd 是“宿主机路径”（容器内不存在），必须先 cd 到容器内真实工作目录
+          cd "${GITHUB_WORKSPACE:-/__w/collect-iptv/collect-iptv}" 2>/dev/null || cd "/__w/collect-iptv/collect-iptv"
+          echo "PWD=$(pwd)"
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add output/
