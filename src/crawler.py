@@ -522,6 +522,11 @@ def main():
             from_cache = True
 
     # 2) 合并 + 输出
+    # 无有效数据时（被封且无任何缓存可兜底）不覆盖历史 output/，避免把上次的好列表清成空。
+    if not records:
+        log("⚠ 本次无任何有效数据（可能为封 IP 且无缓存兜底），保留历史 output/ 不覆盖")
+        return
+
     merged, total_ch = merge_m3us(records)
     m3u_path = os.path.join(OUTPUT_DIR, "cq.m3u")
     with open(m3u_path, "w", encoding="utf-8") as f:
