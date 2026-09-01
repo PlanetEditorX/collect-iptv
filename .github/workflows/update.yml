@@ -1,0 +1,54 @@
+name: 更新IPTV列表
+
+on:
+  push:
+    branches: [main]        # 提交代码到 main 即自动触发抓取
+  schedule:
+    # 每天北京时间 06:00（= UTC 前一天 22:00）自动更新
+    - cron: "0 22 * * *"
+  # 允许在 Actions 页面手动点 “Run workflow” 立即执行
+  workflow_dispatch:
+
+permissions:
+  contents: write   # 允许把 output/ 提交回仓库
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    # 官方 Playwright 镜像：已内置 Python + Chromium，无需再下载浏览器
+    container:
+      image: mcr.microsoft.com/playwright/python:v1.62.0-jammy
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: 安装依赖
+        run: pip install --no-cache-dir -r requirements.txt
+
+      - name: 运行爬虫（仅抓取列表第一页）
+        env:
+          SOURCE_BASE: ${{ secrets.SOURCE_BASE }}   # 数据源首页地址（在仓库 Secrets 中配置）
+          PROVINCE: "cq"          # 驱动列表“省份”下拉框过滤（省份代码）
+          LIMIT: "20"             # 每页 IP 数
+          DELAY: "4"              # 每个 IP 之间的延时（秒），规避“操作过于频繁”限流
+          PAGE_DELAY: "4"         # 页面加载后等待（秒）
+          HEADLESS: "true"
+        run: python src/crawler.py
+
+      - name: 提交输出
+        if: success()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # 容器任务的默认工作目录即仓库根目录（checkout 已 cd 至此），无需再 cd
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/
+          if git diff --cached --quiet; then
+            echo "无变化，跳过提交"
+            exit 0
+          fi
+          git commit -m "chore: 自动更新列表 [skip ci] $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
+          git push origin HEAD
