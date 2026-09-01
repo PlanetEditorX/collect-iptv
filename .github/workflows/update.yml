@@ -41,7 +41,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          set -euo pipefail
+          set -eu
           # 容器内真实仓库根：docker --workdir 即此路径（/__w/<repo>/<repo>）。
           # 切勿用 GITHUB_WORKSPACE —— 它是宿主机路径，在容器内是个“存在的空目录”，
           # 会导致 cd 假成功、git 落在无 .git 的空目录里（not in a git directory）。
