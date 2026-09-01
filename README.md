@@ -90,6 +90,11 @@ https://raw.githubusercontent.com/<你的用户名>/<仓库名>/main/output/cq.m
 | `PAGE_DELAY` | `2` | 页面加载后等待（秒） |
 | `HEADLESS` | `true` | 是否无头；本地调试可设 `false` 看浏览器窗口 |
 | `OUTPUT_DIR` | `output` | 输出目录 |
+| `CACHE_DIR` | `cache` | 爬虫缓存目录（不进 git、不进 output，由 Actions cache 管理） |
+| `CACHE_TTL` | `3600` | 缓存有效期（秒）= 1 小时；命中有效缓存直接复用，跳过全部网络请求 |
+| `COOLDOWN` | `30` | 命中“操作过于频繁”时的降温暂停（秒） |
+| `USE_CACHE` | `true` | 是否启用缓存；设 `false` 强制每次实时抓取 |
+| `NO_CACHE` | `false` | 同 `USE_CACHE=false`，命令行可用 `--no-cache` |
 
 ---
 
@@ -111,12 +116,24 @@ LIMIT=20 MAX_IPS=2 DELAY=4 HEADLESS=true python src/crawler.py
 
 ---
 
+## 缓存机制（1 小时窗口）
+
+抓取结果会缓存到 `cache/`（**不在 `output/`、不进 git**）。每次运行：
+
+1. **命中有效缓存（1 小时内）** → 直接复用，跳过整个浏览器/网络抓取，秒级出结果；
+2. 缓存未命中/已过期 → 实时抓取，成功后写入缓存；
+3. GitHub Actions 用 `actions/cache` 跨运行保存 `cache/`，缓存键按**北京小时**滚动，
+   天然把复用窗口约束在 1 小时；本地运行则靠 `CACHE_TTL` 计时。
+
+> 想强制刷新（忽略缓存）：设 `NO_CACHE=true` 或命令行加 `--no-cache`。
+
 ## 容错设计
 
 - **过挑战失败 / 连接被重置**：`goto_with_retry` 自动退避重试。
 - **单个 IP 失败**：跳过并记录到 `cq.json` 的 `failed_ips`，不影响其它 IP。
-- **频率限制（“操作过于频繁”）**：步骤间已加 `DELAY` 延时。
-- **输出统计**：运行结束打印 `抓取 / 成功 / 失败` 与频道总数。
+- **频率限制（“操作过于频繁”）**：步骤间已加 `DELAY` 延时；命中限流时再主动暂停 `COOLDOWN` 秒降温。
+- **封 IP / 禁止访问**：检测到封禁关键字立即**停止继续请求**（避免对已被封的 IP 持续施压），并回退到历史缓存兜底，保证仍有输出。
+- **输出统计**：运行结束打印 `数据来源(缓存/实时) / 抓取 / 成功 / 失败` 与频道总数。
 
 ---
 

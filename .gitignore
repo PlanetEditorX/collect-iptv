@@ -7,3 +7,6 @@ venv/
 
 # 本地记忆/工具目录不入库（含本地调试信息，避免敏感内容泄露）
 .workbuddy/
+
+# 爬虫缓存（由 GitHub Actions cache 管理，不进 git、也不进 output/）
+cache/

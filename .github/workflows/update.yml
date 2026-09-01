@@ -23,6 +23,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: 计算缓存键（按北京小时，约束为 1 小时有效窗口）
+        run: echo "CACHE_HOUR=$(date -u -d '8 hours' +%Y%m%d%H)" >> $GITHUB_ENV
+
+      - name: 恢复爬虫缓存（actions/cache，不进 git、不进 output）
+        uses: actions/cache@v4
+        with:
+          path: cache
+          # 同一北京小时内复用；跨小时后键变化 → 视为缓存过期，重新抓取
+          key: iptv-crawl-${{ env.CACHE_HOUR }}
+
       - name: 安装依赖
         run: pip install --no-cache-dir -r requirements.txt
 
@@ -34,6 +44,8 @@ jobs:
           DELAY: "4"              # 每个 IP 之间的延时（秒），规避“操作过于频繁”限流
           PAGE_DELAY: "4"         # 页面加载后等待（秒）
           HEADLESS: "true"
+          CACHE_TTL: "3600"       # 缓存有效期（秒）= 1 小时
+          COOLDOWN: "30"          # 命中限流时的降温暂停（秒）
         run: python src/crawler.py
 
       - name: 提交输出
