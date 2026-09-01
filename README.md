@@ -43,10 +43,13 @@ http://113.119.215.53:4022/rtp/229.58.190.151:5000
 iptv-aggregator/
 ├── .github/workflows/update.yml   # GitHub Actions：push/定时/手动跑，自动提交输出
 ├── src/crawler.py                  # 爬虫本体（Playwright 驱动）
+├── src/process.py                 # 后处理：黑名单过滤 + 排序（抓取后、提交前运行）
+├── blacklist.txt                  # 黑名单规则（用户维护；# 开头为注释）
 ├── output/
-│   ├── cq.m3u                      # 生成的播放列表（Actions 提交回仓库）
-│   └── cq.json                     # 结构化统计（来源 IP / 频道数 / 失败记录）
-├── requirements.txt                # playwright==1.62.0
+│   ├── cq.m3u                      # 生成的播放列表（已排序+过滤，Actions 提交回仓库）
+│   └── cq.json                     # 结构化统计（来源 IP / 频道数 / 失败记录 / 屏蔽数）
+├── cache/                         # 爬虫缓存（actions/cache 管理，不进 git）
+├── requirements.txt               # playwright==1.62.0
 └── README.md
 ```
 
@@ -95,6 +98,7 @@ https://raw.githubusercontent.com/<你的用户名>/<仓库名>/main/output/cq.m
 | `COOLDOWN` | `30` | 命中“操作过于频繁”时的降温暂停（秒） |
 | `USE_CACHE` | `true` | 是否启用缓存；设 `false` 强制每次实时抓取 |
 | `NO_CACHE` | `false` | 同 `USE_CACHE=false`，命令行可用 `--no-cache` |
+| `BLACKLIST` | （空） | 后处理临时屏蔽：逗号分隔的「显示名关键字」，无需改 `blacklist.txt` 即可测试 |
 
 ---
 
@@ -115,6 +119,22 @@ LIMIT=20 MAX_IPS=2 DELAY=4 HEADLESS=true python src/crawler.py
 > 本地网络若频繁出现 `ERR_CONNECTION_CLOSED`，是数据源/网络抖动，多跑几次或交给 GitHub Actions（数据机房网络更稳定）即可。
 
 ---
+
+## 排序与黑名单过滤（后处理）
+
+`src/process.py` 在爬虫生成 `output/cq.m3u` 之后、提交之前运行，对列表做两件事：
+
+1. **黑名单过滤**：按规则丢弃频道，支持四个维度（规则详见 `blacklist.txt`）：
+   - `name:关键字` —— 显示名含“关键字”即屏蔽（大小写不敏感）
+   - `tvgid:xxx` —— tvg-id 含 xxx 即屏蔽
+   - `host:1.2.3.4:port` —— 来自该网关的线路即屏蔽（用于剔除坏源）
+   - `group:关键字` —— 分组含“关键字”即屏蔽
+   - 纯文本（无前缀）等价于 `name:`
+   - 规则来源：仓库根 `blacklist.txt` + 可选环境变量 `BLACKLIST`（逗号分隔，便于临时测试，无需改文件）
+2. **排序**：`group-title` → 大类（`CCTV` → `卫视` → `地方台` → `其他`）→ 频道名自然排序（数字感知，如 `CCTV1 < CCTV2 < CCTV10`）；**同名频道的多个线路会相邻聚拢**。
+
+> 当前列表（重庆组播 重庆联通 / 6 个网关）暂无需屏蔽项，`blacklist.txt` 仅有注释示例，按需在里面追加即可。
+> 排序大类顺序在 `src/process.py` 的 `CATEGORY_ORDER` 调整；中文名按 Unicode 码位排序（非拼音），如需拼音序可后续增加拼音库。
 
 ## 缓存机制（1 小时窗口）
 
