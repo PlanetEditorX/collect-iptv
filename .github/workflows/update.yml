@@ -48,7 +48,7 @@ jobs:
           COOLDOWN: "30"          # 命中限流时的降温暂停（秒）
         run: python src/crawler.py
 
-      - name: 排序与黑名单过滤
+      - name: 合并同名频道 + 排序 + 黑名单过滤
         env:
           BLACKLIST: ${{ secrets.BLACKLIST }}   # 可选：逗号分隔的显示名关键字，临时屏蔽用
         run: python src/process.py

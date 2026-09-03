@@ -21,7 +21,7 @@
   频道列表 index.php?s=STOKEN&t=multicast
     └─ M3U 接口 index.php?s=STOKEN&t=multicast&channels=1&download=m3u
         → 用浏览器上下文直接拉取 M3U 文本（自动带 cookie）
-合并：按 URL 去重（同名频道不同线路全部保留）
+合并：按 URL 去重；后处理阶段再按显示名合并同名频道（多网关线路 → 单条目多 URL 备播）
 输出：output/cq.m3u  +  output/cq.json
 ```
 
@@ -43,7 +43,7 @@ http://113.119.215.53:4022/rtp/229.58.190.151:5000
 iptv-aggregator/
 ├── .github/workflows/update.yml   # GitHub Actions：push/定时/手动跑，自动提交输出
 ├── src/crawler.py                  # 爬虫本体（Playwright 驱动）
-├── src/process.py                 # 后处理：黑名单过滤 + 排序（抓取后、提交前运行）
+├── src/process.py                 # 后处理：黑名单过滤 + 同名合并 + 排序（抓取后、提交前运行）
 ├── blacklist.txt                  # 黑名单规则（用户维护；# 开头为注释）
 ├── output/
 │   ├── cq.m3u                      # 生成的播放列表（已排序+过滤，Actions 提交回仓库）
@@ -122,7 +122,7 @@ LIMIT=20 MAX_IPS=2 DELAY=4 HEADLESS=true python src/crawler.py
 
 ## 排序与黑名单过滤（后处理）
 
-`src/process.py` 在爬虫生成 `output/cq.m3u` 之后、提交之前运行，对列表做两件事：
+`src/process.py` 在爬虫生成 `output/cq.m3u` 之后、提交之前运行，对列表做三件事：
 
 1. **黑名单过滤**：按规则丢弃频道，支持四个维度（规则详见 `blacklist.txt`）：
    - `name:关键字` —— 显示名【含】“关键字”即屏蔽（默认，大小写不敏感）
@@ -132,9 +132,10 @@ LIMIT=20 MAX_IPS=2 DELAY=4 HEADLESS=true python src/crawler.py
    - `tvgid:xxx` / `host:1.2.3.4:port` / `group:关键字` —— 同理作用于对应维度（`host` 用于剔除坏网关）
    - 任意前缀均可加 `$/^/=`（如 `tvgid$:xxx`）；纯文本（无前缀）等价于 `name:`
    - 规则来源：仓库根 `blacklist.txt` + 可选环境变量 `BLACKLIST`（逗号分隔，便于临时测试，无需改文件）
-2. **排序**：`group-title` → 大类（`CCTV` → `卫视` → `地方台` → `其他`）→ 频道名自然排序（数字感知，如 `CCTV1 < CCTV2 < CCTV10`）；**同名频道的多个线路会相邻聚拢**。
+2. **合并同名频道**：同一频道在多个网关各有 1 条线路（如 `CCTV1HD` 在 6 个网关各 1 条），合并为 **1 个 `#EXTINF` + 多条 URL** 的标准多源格式（播放器自动回退备播），而非每个网关重复一条。合并键 = 显示名；数据源偶发的「重庆市重庆市组播…」重复前缀会被归一为「重庆组播…」。
+3. **排序**：大类（`CCTV` → `卫视` → `地方台` → `其他`）→ 频道名自然排序（数字感知，如 `CCTV1 < CCTV2 < CCTV10`）。
 
-> 已预置屏蔽：`4K`（全部）、`CETV`、`SD`（全部）以及 29 个指定 `HD` 频道（见 `blacklist.txt`）。996 条经处理后精简为 420 条。
+> 已预置屏蔽：`4K`（全部）、`CETV`、`SD`（全部）以及 29 个指定 `HD` 频道（见 `blacklist.txt`）。
 > 排序大类顺序在 `src/process.py` 的 `CATEGORY_ORDER` 调整；中文名按 Unicode 码位排序（非拼音），如需拼音序可后续增加拼音库。
 
 ## 缓存机制（1 小时窗口）

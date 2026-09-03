@@ -10,8 +10,11 @@
      规则来源（可同时生效）：
        - 仓库根 blacklist.txt（每行一条规则，# 开头为注释）
        - 环境变量 BLACKLIST（逗号分隔的「显示名关键字」，便于临时测试）
-  2. 排序：group-title → 大类（CCTV / 卫视 / 地方台 / 其他）→ 频道名自然排序
-     （同名频道的多个线路会相邻聚拢）。
+  2. 合并同名频道：同一频道在多个网关各有 1 条线路（如 CCTV1HD×6 网关），
+     合并为「1 个 #EXTINF + 多条 URL」的标准多源格式（播放器自动回退备播），
+     而非每个网关重复一条。合并键 = 显示名（tvg-id 补全）。
+  3. 排序：大类（CCTV / 卫视 / 地方台 / 其他）→ 频道名自然排序（CCTV1<CCTV2<CCTV10）。
+  4. 数据源分组偶发的「重庆市重庆市组播…」重复前缀会被归一为「重庆组播…」。
 
 规则格式（blacklist.txt 每行）：
    name:关键字        # 显示名【含】“关键字”即屏蔽（默认，大小写不敏感）
@@ -68,6 +71,37 @@ def category_of(name):
     if any(h in name for h in PROVINCE_HINTS):
         return "地方台"
     return "其他"
+
+
+def normalize_group(g):
+    """同源分组偶发“重庆市重庆市组播”重复前缀，归一为“重庆组播”。"""
+    if not g:
+        return g
+    return g.replace("重庆市重庆市", "重庆")
+
+
+def merge_entries(entries):
+    """把同名频道的多个线路合并为 1 个条目（多条 URL 备播）。
+
+    返回 [(name, attrs, [urls...]), ...]，顺序按 name 首次出现。
+    合并键 = 显示名（name）；tvg-id / tvg-logo / group-title 取首个非空值，
+    分组标题会先经 normalize_group 归一。
+    """
+    groups = {}        # name -> {"attrs": dict, "urls": [url,...]}
+    order = []
+    for attrs, name, url in entries:
+        if name not in groups:
+            groups[name] = {"attrs": dict(attrs), "urls": []}
+            order.append(name)
+        g = groups[name]
+        if url not in g["urls"]:
+            g["urls"].append(url)
+    merged = []
+    for nm in order:
+        a = groups[nm]["attrs"]
+        a["group-title"] = normalize_group(a.get("group-title", ""))
+        merged.append((nm, a, groups[nm]["urls"]))
+    return merged
 
 
 def parse_rules():
@@ -174,37 +208,39 @@ def main():
     if blocked:
         log(f"已屏蔽: {len(blocked)} 条（示例: {', '.join(blocked[:8])}）")
 
-    # 2) 排序：分组 → 大类 → 频道名(自然序)
-    def sort_key(item):
-        attrs, name, _ = item
-        grp = attrs.get("group-title", "") or ""
-        return (grp, CATEGORY_ORDER[category_of(name)], natural_key(name))
+    # 2) 合并同名频道 → 1 个 #EXTINF + 多条 URL（备播源）
+    merged = merge_entries(kept)
+    log(f"合并同名频道: 线路 {len(kept)} 条 → 频道 {len(merged)} 个")
 
-    kept.sort(key=sort_key)
+    # 3) 排序：大类 → 频道名(自然序)
+    merged.sort(key=lambda it: (CATEGORY_ORDER[category_of(it[0])], natural_key(it[0])))
 
-    # 3) 写回
+    # 4) 写回（多源 M3U 格式）
     out = [header]
-    for attrs, name, url in kept:
+    for name, attrs, urls in merged:
+        urls_sorted = sorted(set(urls))  # 去重 + 确定性顺序
         out.append(
             f'#EXTINF:-1 tvg-id="{attrs.get("tvg-id","")}" '
             f'tvg-logo="{attrs.get("tvg-logo","")}" '
             f'group-title="{attrs.get("group-title","")}",{name}'
         )
-        out.append(url)
+        for u in urls_sorted:
+            out.append(u)
     with open(M3U_PATH, "w", encoding="utf-8") as f:
         f.write("\n".join(out) + "\n")
 
-    # 4) 同步更新 cq.json 的统计，便于追溯
+    # 5) 同步更新 cq.json 的统计，便于追溯
     cats = {}
-    for _, name, _ in kept:
+    for name, _, _ in merged:
         c = category_of(name)
         cats[c] = cats.get(c, 0) + 1
     if os.path.exists(JSON_PATH):
         try:
             with open(JSON_PATH, encoding="utf-8") as f:
                 data = json.load(f)
-            data["total_channels"] = len(kept)
+            data["total_channels"] = len(merged)
             data["blacklisted"] = len(blocked)
+            data["merged_from_lines"] = len(kept)
             data["categories"] = cats
             data["processed_at"] = datetime.now(timezone.utc).isoformat()
             with open(JSON_PATH, "w", encoding="utf-8") as f:
@@ -212,7 +248,7 @@ def main():
         except Exception as e:
             log(f"  ⚠ cq.json 更新失败(不影响 m3u): {e}")
 
-    log(f"输出频道数: {len(kept)}  （屏蔽 {len(blocked)}）  大类分布: {cats}")
+    log(f"输出频道数: {len(merged)} 个（由 {len(kept)} 条线路合并；屏蔽 {len(blocked)}）  大类分布: {cats}")
 
 
 if __name__ == "__main__":
