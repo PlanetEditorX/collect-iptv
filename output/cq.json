@@ -1,15 +1,29 @@
 {
-  "generated_at": "2026-09-03T01:59:44.107246+00:00",
+  "generated_at": "2026-09-03T23:48:09.028666+00:00",
   "region": "",
   "from_cache": false,
   "stats": {
     "total": 6,
-    "ok": 6,
-    "fail": 0,
-    "failed_ips": []
+    "ok": 5,
+    "fail": 1,
+    "failed_ips": [
+      "27.32.9.85"
+    ]
   },
-  "total_channels": 70,
+  "total_channels": 459,
   "sources": [
+    {
+      "ip": "27.200.202.154",
+      "type": "重庆组播 重庆联通",
+      "channels": 167,
+      "m3u_api": "https://iptv.cqshushu.com/index.php?s=xARVSf2xZFMkWSaLCQ3NfQ&t=multicast&channels=1&download=m3u"
+    },
+    {
+      "ip": "14.90.24.154",
+      "type": "重庆咪咕 重庆电信",
+      "channels": 408,
+      "m3u_api": "https://iptv.cqshushu.com/index.php?s=IEIx9_H7rtYADFPUfeBRdQ&t=multicast&channels=1&download=m3u"
+    },
     {
       "ip": "27.91.50.20",
       "type": "重庆组播 重庆联通",
@@ -27,33 +41,15 @@
       "type": "重庆市重庆市组播 重庆联通",
       "channels": 167,
       "m3u_api": "https://iptv.cqshushu.com/index.php?s=9d3pUDz48f5l-C27y0atfg&t=multicast&channels=1&download=m3u"
-    },
-    {
-      "ip": "113.132.94.202",
-      "type": "重庆组播 重庆联通",
-      "channels": 167,
-      "m3u_api": "https://iptv.cqshushu.com/index.php?s=M09iHFkmLE_i-gxu5iWN5A&t=multicast&channels=1&download=m3u"
-    },
-    {
-      "ip": "27.230.51.149",
-      "type": "重庆组播 重庆联通",
-      "channels": 167,
-      "m3u_api": "https://iptv.cqshushu.com/index.php?s=mpDBl0qE8A-uu3F27k_TTg&t=multicast&channels=1&download=m3u"
-    },
-    {
-      "ip": "27.255.49.135",
-      "type": "重庆组播 重庆联通",
-      "channels": 167,
-      "m3u_api": "https://iptv.cqshushu.com/index.php?s=hUjHGrhRMN5JRQEZWjDuEg&t=multicast&channels=1&download=m3u"
     }
   ],
-  "blacklisted": 576,
-  "merged_from_lines": 420,
+  "blacklisted": 389,
+  "merged_from_lines": 683,
   "categories": {
-    "CCTV": 17,
-    "卫视": 23,
-    "地方台": 4,
-    "其他": 26
+    "CCTV": 36,
+    "卫视": 45,
+    "地方台": 53,
+    "其他": 325
   },
-  "processed_at": "2026-09-03T01:59:44.202725+00:00"
+  "processed_at": "2026-09-03T23:48:09.152163+00:00"
 }
