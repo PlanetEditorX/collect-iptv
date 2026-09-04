@@ -43,13 +43,13 @@
       "m3u_api": "https://iptv.cqshushu.com/index.php?s=9d3pUDz48f5l-C27y0atfg&t=multicast&channels=1&download=m3u"
     }
   ],
-  "blacklisted": 389,
-  "merged_from_lines": 683,
+  "blacklisted": 0,
+  "merged_from_lines": 459,
   "categories": {
     "CCTV": 36,
     "卫视": 45,
     "地方台": 53,
     "其他": 325
   },
-  "processed_at": "2026-09-03T23:48:09.152163+00:00"
+  "processed_at": "2026-09-04T23:45:39.523920+00:00"
 }
