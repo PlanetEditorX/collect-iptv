@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T23:44:23.389592+00:00",
+  "generated_at": "2026-09-13T23:55:49.644383+00:00",
   "region": "",
   "from_cache": false,
   "stats": {
@@ -11,8 +11,14 @@
       "113.67.164.172"
     ]
   },
-  "total_channels": 522,
+  "total_channels": 426,
   "sources": [
+    {
+      "ip": "27.76.124.117",
+      "type": "重庆组播 重庆联通",
+      "channels": 167,
+      "m3u_api": "https://iptv.cqshushu.com/index.php?s=plwcqLT6EGbjPDqyERIwsA&t=multicast&channels=1&download=m3u"
+    },
     {
       "ip": "113.92.48.202",
       "type": "重庆组播 重庆联通",
@@ -22,23 +28,17 @@
     {
       "ip": "27.166.12.57",
       "type": "重庆咪咕 重庆联通",
-      "channels": 469,
+      "channels": 363,
       "m3u_api": "https://iptv.cqshushu.com/index.php?s=eWNJz7XVHt1KVBiqalwhJA&t=multicast&channels=1&download=m3u"
-    },
-    {
-      "ip": "27.246.48.209",
-      "type": "重庆组播 重庆联通",
-      "channels": 167,
-      "m3u_api": "https://iptv.cqshushu.com/index.php?s=rasN6q870c7FMtIF-WkLEg&t=multicast&channels=1&download=m3u"
     }
   ],
-  "blacklisted": 197,
-  "merged_from_lines": 596,
+  "blacklisted": 195,
+  "merged_from_lines": 500,
   "categories": {
     "CCTV": 36,
     "卫视": 45,
-    "地方台": 90,
-    "其他": 351
+    "地方台": 55,
+    "其他": 290
   },
-  "processed_at": "2026-09-12T23:44:23.501853+00:00"
+  "processed_at": "2026-09-13T23:55:49.755722+00:00"
 }
