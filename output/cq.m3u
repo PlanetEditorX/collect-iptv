@@ -1,1048 +1,1158 @@
 #EXTM3U x-tvg-url="https://fy.188766.xyz/e.xml" tvg-shift="0"
 #EXTINF:-1 tvg-id="CCTV1" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",CCTV1
-http://14.104.200.54:4022/rtp/235.254.197.250:7980
-http://14.104.200.54:4022/rtp/235.254.199.147:7980
-http://14.104.200.54:4022/rtp/235.254.199.51:7980
-http://14.104.200.54:4022/rtp/235.254.199.92:7980
+http://14.104.26.46:4022/rtp/235.254.197.250:7980
+http://14.104.26.46:4022/rtp/235.254.199.147:7980
+http://14.104.26.46:4022/rtp/235.254.199.51:7980
+http://14.104.26.46:4022/rtp/235.254.199.92:7980
 #EXTINF:-1 tvg-id="CCTV1HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",CCTV1HD
-http://113.206.98.150:8888/rtp/225.0.4.74:7980
-http://220.192.128.106:8007/rtp/225.0.4.74:7980
-http://27.11.248.220:8008/rtp/225.0.4.74:7980
-http://27.11.51.73:8008/rtp/225.0.4.74:7980
+http://113.205.171.18:8005/rtp/225.0.4.74:7980
+http://220.192.160.171:10000/rtp/225.0.4.74:7980
 #EXTINF:-1 tvg-id="CCTV1综合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2201/057/821/202204010054_1626677671392_H32_1080.webp" group-title="央视",CCTV1综合
+http://125.80.80.248:3005/608807420
 http://27.12.167.107:1234/608807420
 #EXTINF:-1 tvg-id="CCTV2" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",CCTV2
-http://14.104.200.54:4022/rtp/235.254.199.52:7980
+http://14.104.26.46:4022/rtp/235.254.199.52:7980
 #EXTINF:-1 tvg-id="CCTV2HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",CCTV2HD
-http://113.206.98.150:8888/rtp/225.0.4.132:7980
-http://220.192.128.106:8007/rtp/225.0.4.132:7980
-http://27.11.248.220:8008/rtp/225.0.4.132:7980
-http://27.11.51.73:8008/rtp/225.0.4.132:7980
+http://113.205.171.18:8005/rtp/225.0.4.132:7980
+http://220.192.160.171:10000/rtp/225.0.4.132:7980
 #EXTINF:-1 tvg-id="CCTV2财经" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/346/945/202205311432_1626678578843_H32_1080.webp" group-title="央视",CCTV2财经
+http://125.80.80.248:3005/631780532
 http://27.12.167.107:1234/631780532
 #EXTINF:-1 tvg-id="CCTV3" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",CCTV3
-http://14.104.200.54:4022/rtp/235.254.199.53:7980
+http://14.104.26.46:4022/rtp/235.254.199.53:7980
 #EXTINF:-1 tvg-id="CCTV3HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",CCTV3HD
-http://113.206.98.150:8888/rtp/225.0.4.142:7980
-http://220.192.128.106:8007/rtp/225.0.4.142:7980
-http://27.11.248.220:8008/rtp/225.0.4.142:7980
-http://27.11.51.73:8008/rtp/225.0.4.142:7980
+http://113.205.171.18:8005/rtp/225.0.4.142:7980
+http://220.192.160.171:10000/rtp/225.0.4.142:7980
 #EXTINF:-1 tvg-id="CCTV3综艺" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/212/864/202204010055_1626679244629_H32_1080.webp" group-title="央视",CCTV3综艺
+http://125.80.80.248:3005/624878271
 http://27.12.167.107:1234/624878271
 #EXTINF:-1 tvg-id="CCTV4" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",CCTV4
-http://14.104.200.54:4022/rtp/235.254.198.183:7980
-http://14.104.200.54:4022/rtp/235.254.199.183:7980
+http://14.104.26.46:4022/rtp/235.254.198.183:7980
+http://14.104.26.46:4022/rtp/235.254.199.183:7980
 #EXTINF:-1 tvg-id="CCTV4HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",CCTV4HD
-http://113.206.98.150:8888/rtp/225.0.4.176:7980
-http://220.192.128.106:8007/rtp/225.0.4.176:7980
-http://27.11.248.220:8008/rtp/225.0.4.176:7980
-http://27.11.51.73:8008/rtp/225.0.4.176:7980
+http://113.205.171.18:8005/rtp/225.0.4.176:7980
+http://220.192.160.171:10000/rtp/225.0.4.176:7980
 #EXTINF:-1 tvg-id="CCTV4中文国际" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/346/947/202204010054_1626679413842_H32_1080.webp" group-title="央视",CCTV4中文国际
+http://125.80.80.248:3005/631780421
 http://27.12.167.107:1234/631780421
 #EXTINF:-1 tvg-id="CCTV4欧洲" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/179/315/202204010055_1626831010992_H32_1080.webp" group-title="央视",CCTV4欧洲
+http://125.80.80.248:3005/608807419
 http://27.12.167.107:1234/608807419
 #EXTINF:-1 tvg-id="CCTV4美洲" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/179/344/202204010055_1626830746239_H32_1080.webp" group-title="央视",CCTV4美洲
+http://125.80.80.248:3005/608807416
 http://27.12.167.107:1234/608807416
 #EXTINF:-1 tvg-id="CCTV5" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",CCTV5
-http://14.104.200.54:4022/rtp/235.254.199.146:7980
-http://14.104.200.54:4022/rtp/235.254.199.54:7980
+http://14.104.26.46:4022/rtp/235.254.199.146:7980
+http://14.104.26.46:4022/rtp/235.254.199.54:7980
 #EXTINF:-1 tvg-id="CCTV5+" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",CCTV5+
-http://14.104.200.54:4022/rtp/235.254.199.121:7980
+http://14.104.26.46:4022/rtp/235.254.199.121:7980
 #EXTINF:-1 tvg-id="CCTV5+HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",CCTV5+HD
-http://113.206.98.150:8888/rtp/225.0.4.73:7980
-http://220.192.128.106:8007/rtp/225.0.4.73:7980
-http://27.11.248.220:8008/rtp/225.0.4.73:7980
-http://27.11.51.73:8008/rtp/225.0.4.73:7980
+http://113.205.171.18:8005/rtp/225.0.4.73:7980
+http://220.192.160.171:10000/rtp/225.0.4.73:7980
 #EXTINF:-1 tvg-id="CCTV5+体育赛事" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/516/288/202204010048_1626679712843_H32_1080.webp" group-title="央视",CCTV5+体育赛事
+http://125.80.80.248:3005/641886773
 http://27.12.167.107:1234/641886773
 #EXTINF:-1 tvg-id="CCTV5HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",CCTV5HD
-http://113.206.98.150:8888/rtp/225.0.4.143:7980
-http://220.192.128.106:8007/rtp/225.0.4.143:7980
-http://27.11.248.220:8008/rtp/225.0.4.143:7980
-http://27.11.51.73:8008/rtp/225.0.4.143:7980
+http://113.205.171.18:8005/rtp/225.0.4.143:7980
+http://220.192.160.171:10000/rtp/225.0.4.143:7980
 #EXTINF:-1 tvg-id="CCTV5体育" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/516/171/202204010048_1626679603804_H32_1080.webp" group-title="央视",CCTV5体育
+http://125.80.80.248:3005/641886683
 http://27.12.167.107:1234/641886683
 #EXTINF:-1 tvg-id="CCTV6" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",CCTV6
-http://14.104.200.54:4022/rtp/235.254.199.55:7980
+http://14.104.26.46:4022/rtp/235.254.199.55:7980
 #EXTINF:-1 tvg-id="CCTV6HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",CCTV6HD
-http://113.206.98.150:8888/rtp/225.0.4.144:7980
-http://220.192.128.106:8007/rtp/225.0.4.144:7980
-http://27.11.248.220:8008/rtp/225.0.4.144:7980
-http://27.11.51.73:8008/rtp/225.0.4.144:7980
+http://113.205.171.18:8005/rtp/225.0.4.144:7980
+http://220.192.160.171:10000/rtp/225.0.4.144:7980
 #EXTINF:-1 tvg-id="CCTV6电影" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/212/872/202204010054_1626679914432_H32_1080.webp" group-title="央视",CCTV6电影
+http://125.80.80.248:3005/624878396
 http://27.12.167.107:1234/624878396
 #EXTINF:-1 tvg-id="CCTV7" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",CCTV7
-http://14.104.200.54:4022/rtp/235.254.199.56:7980
+http://14.104.26.46:4022/rtp/235.254.199.56:7980
 #EXTINF:-1 tvg-id="CCTV7HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",CCTV7HD
-http://113.206.98.150:8888/rtp/225.0.4.127:7980
-http://220.192.128.106:8007/rtp/225.0.4.127:7980
-http://27.11.248.220:8008/rtp/225.0.4.127:7980
-http://27.11.51.73:8008/rtp/225.0.4.127:7980
+http://113.205.171.18:8005/rtp/225.0.4.127:7980
+http://220.192.160.171:10000/rtp/225.0.4.127:7980
 #EXTINF:-1 tvg-id="CCTV7国防军事" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5501/083/622/202204010054_1626680119210_H32_1080.webp" group-title="央视",CCTV7国防军事
+http://125.80.80.248:3005/673168121
 http://27.12.167.107:1234/673168121
 #EXTINF:-1 tvg-id="CCTV8" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",CCTV8
-http://14.104.200.54:4022/rtp/235.254.199.57:7980
+http://14.104.26.46:4022/rtp/235.254.199.57:7980
 #EXTINF:-1 tvg-id="CCTV8HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",CCTV8HD
-http://113.206.98.150:8888/rtp/225.0.4.137:7980
-http://220.192.128.106:8007/rtp/225.0.4.137:7980
-http://27.11.248.220:8008/rtp/225.0.4.137:7980
-http://27.11.51.73:8008/rtp/225.0.4.137:7980
+http://113.205.171.18:8005/rtp/225.0.4.137:7980
+http://220.192.160.171:10000/rtp/225.0.4.137:7980
 #EXTINF:-1 tvg-id="CCTV8电视剧" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/212/868/202204010049_1626677150014_H32_1080.webp" group-title="央视",CCTV8电视剧
+http://125.80.80.248:3005/624878356
 http://27.12.167.107:1234/624878356
 #EXTINF:-1 tvg-id="CCTV9" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",CCTV9
-http://14.104.200.54:4022/rtp/235.254.199.58:7980
+http://14.104.26.46:4022/rtp/235.254.199.58:7980
 #EXTINF:-1 tvg-id="CCTV9HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",CCTV9HD
-http://113.206.98.150:8888/rtp/225.0.4.131:7980
-http://220.192.128.106:8007/rtp/225.0.4.131:7980
-http://27.11.248.220:8008/rtp/225.0.4.131:7980
-http://27.11.51.73:8008/rtp/225.0.4.131:7980
+http://113.205.171.18:8005/rtp/225.0.4.131:7980
+http://220.192.160.171:10000/rtp/225.0.4.131:7980
 #EXTINF:-1 tvg-id="CCTV9纪录" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5501/083/624/202603081600_1772956792519_H32_1080.webp" group-title="央视",CCTV9纪录
+http://125.80.80.248:3005/673168140
 http://27.12.167.107:1234/673168140
 #EXTINF:-1 tvg-id="CCTV10" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",CCTV10
-http://14.104.200.54:4022/rtp/235.254.199.59:7980
+http://14.104.26.46:4022/rtp/235.254.199.59:7980
 #EXTINF:-1 tvg-id="CCTV10HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",CCTV10HD
-http://113.206.98.150:8888/rtp/225.0.4.130:7980
-http://220.192.128.106:8007/rtp/225.0.4.130:7980
-http://27.11.248.220:8008/rtp/225.0.4.130:7980
-http://27.11.51.73:8008/rtp/225.0.4.130:7980
+http://113.205.171.18:8005/rtp/225.0.4.130:7980
+http://220.192.160.171:10000/rtp/225.0.4.130:7980
 #EXTINF:-1 tvg-id="CCTV10科教" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/212/874/202204010054_1626677767922_H32_1080.webp" group-title="央视",CCTV10科教
+http://125.80.80.248:3005/624878405
 http://27.12.167.107:1234/624878405
 #EXTINF:-1 tvg-id="CCTV11" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",CCTV11
-http://14.104.200.54:4022/rtp/235.254.197.161:7980
+http://14.104.26.46:4022/rtp/235.254.197.161:7980
 #EXTINF:-1 tvg-id="CCTV11HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",CCTV11HD
-http://113.206.98.150:8888/rtp/225.0.4.218:7980
-http://220.192.128.106:8007/rtp/225.0.4.218:7980
-http://27.11.248.220:8008/rtp/225.0.4.218:7980
-http://27.11.51.73:8008/rtp/225.0.4.218:7980
+http://113.205.171.18:8005/rtp/225.0.4.218:7980
+http://220.192.160.171:10000/rtp/225.0.4.218:7980
 #EXTINF:-1 tvg-id="CCTV11戏曲" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/988/610/202204010054_1626677922732_H32_1080.webp" group-title="央视",CCTV11戏曲
+http://125.80.80.248:3005/667987558
 http://27.12.167.107:1234/667987558
 #EXTINF:-1 tvg-id="CCTV12" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",CCTV12
-http://14.104.200.54:4022/rtp/235.254.199.60:7980
+http://14.104.26.46:4022/rtp/235.254.199.60:7980
 #EXTINF:-1 tvg-id="CCTV12HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",CCTV12HD
-http://113.206.98.150:8888/rtp/225.0.4.129:7980
-http://220.192.128.106:8007/rtp/225.0.4.129:7980
-http://27.11.248.220:8008/rtp/225.0.4.129:7980
-http://27.11.51.73:8008/rtp/225.0.4.129:7980
+http://113.205.171.18:8005/rtp/225.0.4.129:7980
+http://220.192.160.171:10000/rtp/225.0.4.129:7980
 #EXTINF:-1 tvg-id="CCTV12社会与法" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5501/083/627/202204010053_1626678108629_H32_1080.webp" group-title="央视",CCTV12社会与法
+http://125.80.80.248:3005/673168185
 http://27.12.167.107:1234/673168185
 #EXTINF:-1 tvg-id="CCTV13" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",CCTV13
-http://14.104.200.54:4022/rtp/235.254.197.162:7980
+http://14.104.26.46:4022/rtp/235.254.197.162:7980
 #EXTINF:-1 tvg-id="CCTV13HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",CCTV13HD
-http://113.206.98.150:8888/rtp/225.0.4.219:7980
-http://220.192.128.106:8007/rtp/225.0.4.219:7980
-http://27.11.248.220:8008/rtp/225.0.4.219:7980
-http://27.11.51.73:8008/rtp/225.0.4.219:7980
+http://113.205.171.18:8005/rtp/225.0.4.219:7980
+http://220.192.160.171:10000/rtp/225.0.4.219:7980
 #EXTINF:-1 tvg-id="CCTV13新闻" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2202/208/864/202204010051_2202208864_H32_1080.webp" group-title="央视",CCTV13新闻
+http://125.80.80.248:3005/608807423
 http://27.12.167.107:1234/608807423
 #EXTINF:-1 tvg-id="CCTV14" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",CCTV14
-http://14.104.200.54:4022/rtp/235.254.199.61:7980
+http://14.104.26.46:4022/rtp/235.254.199.61:7980
 #EXTINF:-1 tvg-id="CCTV14HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",CCTV14HD
-http://113.206.98.150:8888/rtp/225.0.4.128:7980
-http://220.192.128.106:8007/rtp/225.0.4.128:7980
-http://27.11.248.220:8008/rtp/225.0.4.128:7980
-http://27.11.51.73:8008/rtp/225.0.4.128:7980
+http://113.205.171.18:8005/rtp/225.0.4.128:7980
+http://220.192.160.171:10000/rtp/225.0.4.128:7980
 #EXTINF:-1 tvg-id="CCTV14少儿" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/212/875/202204010054_1626678147073_H32_1080.webp" group-title="央视",CCTV14少儿
+http://125.80.80.248:3005/624878440
 http://27.12.167.107:1234/624878440
 #EXTINF:-1 tvg-id="CCTV15" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",CCTV15
-http://14.104.200.54:4022/rtp/235.254.197.163:7980
+http://14.104.26.46:4022/rtp/235.254.197.163:7980
 #EXTINF:-1 tvg-id="CCTV15HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",CCTV15HD
-http://113.206.98.150:8888/rtp/225.0.4.220:7980
-http://220.192.128.106:8007/rtp/225.0.4.220:7980
-http://27.11.248.220:8008/rtp/225.0.4.220:7980
-http://27.11.51.73:8008/rtp/225.0.4.220:7980
+http://113.205.171.18:8005/rtp/225.0.4.220:7980
+http://220.192.160.171:10000/rtp/225.0.4.220:7980
 #EXTINF:-1 tvg-id="CCTV15音乐" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5501/083/628/202204010054_1626678245130_H32_1080.webp" group-title="央视",CCTV15音乐
+http://125.80.80.248:3005/673168223
 http://27.12.167.107:1234/673168223
 #EXTINF:-1 tvg-id="CCTV17" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",CCTV17
-http://14.104.200.54:4022/rtp/235.254.198.130:7980
-http://14.104.200.54:4022/rtp/235.254.199.130:7980
+http://14.104.26.46:4022/rtp/235.254.198.130:7980
+http://14.104.26.46:4022/rtp/235.254.199.130:7980
 #EXTINF:-1 tvg-id="CCTV17HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",CCTV17HD
-http://113.206.98.150:8888/rtp/225.0.4.179:7980
-http://220.192.128.106:8007/rtp/225.0.4.179:7980
-http://27.11.248.220:8008/rtp/225.0.4.179:7980
-http://27.11.51.73:8008/rtp/225.0.4.179:7980
+http://113.205.171.18:8005/rtp/225.0.4.179:7980
+http://220.192.160.171:10000/rtp/225.0.4.179:7980
 #EXTINF:-1 tvg-id="CCTV17农业农村" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5501/083/631/202204010052_1626678428060_H32_1080.webp" group-title="央视",CCTV17农业农村
+http://125.80.80.248:3005/673168256
 http://27.12.167.107:1234/673168256
 #EXTINF:-1 tvg-id="央视台球" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",央视台球
-http://14.104.200.54:4022/rtp/235.254.199.193:7980
+http://14.104.26.46:4022/rtp/235.254.199.193:7980
 #EXTINF:-1 tvg-id="央视文化精品" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",央视文化精品
-http://14.104.200.54:4022/rtp/235.254.199.210:7980
+http://14.104.26.46:4022/rtp/235.254.199.210:7980
 #EXTINF:-1 tvg-id="央视网CCTV1" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",央视网CCTV1
-http://14.104.200.54:4022/rtp/235.254.199.79:7980
+http://14.104.26.46:4022/rtp/235.254.199.79:7980
 #EXTINF:-1 tvg-id="央视网CCTV3" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",央视网CCTV3
-http://14.104.200.54:4022/rtp/235.254.199.88:7980
+http://14.104.26.46:4022/rtp/235.254.199.88:7980
 #EXTINF:-1 tvg-id="央视网CCTV4" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",央视网CCTV4
-http://14.104.200.54:4022/rtp/235.254.199.78:7980
+http://14.104.26.46:4022/rtp/235.254.199.78:7980
 #EXTINF:-1 tvg-id="央视网CCTV5" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",央视网CCTV5
-http://14.104.200.54:4022/rtp/235.254.199.96:7980
+http://14.104.26.46:4022/rtp/235.254.199.96:7980
 #EXTINF:-1 tvg-id="央视网CCTV10" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",央视网CCTV10
-http://14.104.200.54:4022/rtp/235.254.199.82:7980
+http://14.104.26.46:4022/rtp/235.254.199.82:7980
 #EXTINF:-1 tvg-id="三沙卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/307/202512081329_1764320715088_H32_1080.webp" group-title="卫视",三沙卫视
+http://125.80.80.248:3005/961023778
 http://27.12.167.107:1234/961023778
 #EXTINF:-1 tvg-id="东南卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/182/202507151427_1744624877917_H32_1080.webp" group-title="卫视",东南卫视
-http://14.104.200.54:4022/rtp/235.254.198.129:7980
-http://14.104.200.54:4022/rtp/235.254.199.129:7980
+http://125.80.80.248:3005/849116810
+http://14.104.26.46:4022/rtp/235.254.198.129:7980
+http://14.104.26.46:4022/rtp/235.254.199.129:7980
 http://27.12.167.107:1234/849116810
 #EXTINF:-1 tvg-id="东南卫视HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",东南卫视HD
-http://113.206.98.150:8888/rtp/225.0.4.200:7980
-http://220.192.128.106:8007/rtp/225.0.4.200:7980
-http://27.11.248.220:8008/rtp/225.0.4.200:7980
-http://27.11.51.73:8008/rtp/225.0.4.200:7980
+http://113.205.171.18:8005/rtp/225.0.4.200:7980
+http://220.192.160.171:10000/rtp/225.0.4.200:7980
 #EXTINF:-1 tvg-id="东方卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/185/202508040856_5100043384_H32_1080.webp" group-title="卫视",东方卫视
-http://14.104.200.54:4022/rtp/235.254.199.73:7980
+http://125.80.80.248:3005/651632648
+http://14.104.26.46:4022/rtp/235.254.199.73:7980
 http://27.12.167.107:1234/651632648
 #EXTINF:-1 tvg-id="东方卫视HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",东方卫视HD
-http://113.206.98.150:8888/rtp/225.0.4.80:7980
-http://220.192.128.106:8007/rtp/225.0.4.80:7980
-http://27.11.248.220:8008/rtp/225.0.4.80:7980
-http://27.11.51.73:8008/rtp/225.0.4.80:7980
+http://113.205.171.18:8005/rtp/225.0.4.80:7980
+http://220.192.160.171:10000/rtp/225.0.4.80:7980
 #EXTINF:-1 tvg-id="中国农林卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/186/202508051621_1754370274934_H32_1080.webp" group-title="卫视",中国农林卫视
+http://125.80.80.248:3005/956904896
 http://27.12.167.107:1234/956904896
 #EXTINF:-1 tvg-id="云南卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",云南卫视
-http://14.104.200.54:4022/rtp/235.254.197.177:7980
+http://14.104.26.46:4022/rtp/235.254.197.177:7980
 #EXTINF:-1 tvg-id="兵团卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/192/202607201552_1784533969668_H32_1080.webp" group-title="卫视",兵团卫视
-http://14.104.200.54:4022/rtp/235.254.197.183:7980
+http://125.80.80.248:3005/956923145
+http://14.104.26.46:4022/rtp/235.254.197.183:7980
 http://27.12.167.107:1234/956923145
 #EXTINF:-1 tvg-id="兵团卫视HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",兵团卫视HD
-http://113.206.98.150:8888/rtp/225.0.4.72:7980
-http://220.192.128.106:8007/rtp/225.0.4.72:7980
-http://27.11.248.220:8008/rtp/225.0.4.72:7980
-http://27.11.51.73:8008/rtp/225.0.4.72:7980
+http://113.205.171.18:8005/rtp/225.0.4.72:7980
+http://220.192.160.171:10000/rtp/225.0.4.72:7980
 #EXTINF:-1 tvg-id="北京卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/306/202512091630_1765269008692_H32_1080.webp" group-title="卫视",北京卫视
-http://14.104.200.54:4022/rtp/235.254.199.66:7980
+http://125.80.80.248:3005/630287636
+http://14.104.26.46:4022/rtp/235.254.199.66:7980
 http://27.12.167.107:1234/630287636
 #EXTINF:-1 tvg-id="北京卫视HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",北京卫视HD
-http://113.206.98.150:8888/rtp/225.0.4.78:7980
-http://220.192.128.106:8007/rtp/225.0.4.78:7980
-http://27.11.248.220:8008/rtp/225.0.4.78:7980
-http://27.11.51.73:8008/rtp/225.0.4.78:7980
+http://113.205.171.18:8005/rtp/225.0.4.78:7980
+http://220.192.160.171:10000/rtp/225.0.4.78:7980
 #EXTINF:-1 tvg-id="吉林卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/022/164/202501231715_1658138733016_H32_1080.webp" group-title="卫视",吉林卫视
+http://125.80.80.248:3005/947472500
 http://27.12.167.107:1234/947472500
 #EXTINF:-1 tvg-id="四川卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",四川卫视
-http://14.104.200.54:4022/rtp/235.254.198.175:7980
-http://14.104.200.54:4022/rtp/235.254.199.175:7980
+http://14.104.26.46:4022/rtp/235.254.198.175:7980
+http://14.104.26.46:4022/rtp/235.254.199.175:7980
 #EXTINF:-1 tvg-id="四川卫视HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",四川卫视HD
-http://113.206.98.150:8888/rtp/225.0.4.204:7980
-http://220.192.128.106:8007/rtp/225.0.4.204:7980
-http://27.11.248.220:8008/rtp/225.0.4.204:7980
-http://27.11.51.73:8008/rtp/225.0.4.204:7980
+http://113.205.171.18:8005/rtp/225.0.4.204:7980
+http://220.192.160.171:10000/rtp/225.0.4.204:7980
 #EXTINF:-1 tvg-id="大湾区卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/322/852/202304081513_1677570739176_H32_1080.webp" group-title="卫视",大湾区卫视
+http://125.80.80.248:3005/608917627
 http://27.12.167.107:1234/608917627
 #EXTINF:-1 tvg-id="天津卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",天津卫视
-http://14.104.200.54:4022/rtp/235.254.199.67:7980
+http://14.104.26.46:4022/rtp/235.254.199.67:7980
 #EXTINF:-1 tvg-id="天津卫视HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",天津卫视HD
-http://113.206.98.150:8888/rtp/225.0.4.82:7980
-http://220.192.128.106:8007/rtp/225.0.4.82:7980
-http://27.11.248.220:8008/rtp/225.0.4.82:7980
-http://27.11.51.73:8008/rtp/225.0.4.82:7980
+http://113.205.171.18:8005/rtp/225.0.4.82:7980
+http://220.192.160.171:10000/rtp/225.0.4.82:7980
 #EXTINF:-1 tvg-id="宁夏卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/262/202510241641_1658131953051_H32_1080.webp" group-title="卫视",宁夏卫视
-http://14.104.200.54:4022/rtp/235.254.197.138:7980
+http://125.80.80.248:3005/738910535
+http://14.104.26.46:4022/rtp/235.254.197.138:7980
 http://27.12.167.107:1234/738910535
 #EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",安徽卫视
-http://14.104.200.54:4022/rtp/235.254.199.65:7980
+http://14.104.26.46:4022/rtp/235.254.199.65:7980
 #EXTINF:-1 tvg-id="安徽卫视HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",安徽卫视HD
-http://113.206.98.150:8888/rtp/225.0.4.133:7980
-http://220.192.128.106:8007/rtp/225.0.4.133:7980
-http://27.11.248.220:8008/rtp/225.0.4.133:7980
-http://27.11.51.73:8008/rtp/225.0.4.133:7980
+http://113.205.171.18:8005/rtp/225.0.4.133:7980
+http://220.192.160.171:10000/rtp/225.0.4.133:7980
 #EXTINF:-1 tvg-id="山东卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",山东卫视
-http://14.104.200.54:4022/rtp/235.254.199.69:7980
+http://14.104.26.46:4022/rtp/235.254.199.69:7980
 #EXTINF:-1 tvg-id="山东卫视HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",山东卫视HD
-http://113.206.98.150:8888/rtp/225.0.4.199:7980
-http://220.192.128.106:8007/rtp/225.0.4.199:7980
-http://27.11.248.220:8008/rtp/225.0.4.199:7980
-http://27.11.51.73:8008/rtp/225.0.4.199:7980
+http://113.205.171.18:8005/rtp/225.0.4.199:7980
+http://220.192.160.171:10000/rtp/225.0.4.199:7980
 #EXTINF:-1 tvg-id="山东教育卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",山东教育卫视
-http://14.104.200.54:4022/rtp/235.254.197.54:7980
+http://14.104.26.46:4022/rtp/235.254.197.54:7980
 #EXTINF:-1 tvg-id="广东卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2202/428/795/202107191524_2202428795_H32_1080.webp" group-title="卫视",广东卫视
-http://14.104.200.54:4022/rtp/235.254.197.186:7980
+http://125.80.80.248:3005/608831231
+http://14.104.26.46:4022/rtp/235.254.197.186:7980
 http://27.12.167.107:1234/608831231
 #EXTINF:-1 tvg-id="广东卫视HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",广东卫视HD
-http://113.206.98.150:8888/rtp/225.0.4.84:7980
-http://220.192.128.106:8007/rtp/225.0.4.84:7980
-http://27.11.248.220:8008/rtp/225.0.4.84:7980
-http://27.11.51.73:8008/rtp/225.0.4.84:7980
+http://113.205.171.18:8005/rtp/225.0.4.84:7980
+http://220.192.160.171:10000/rtp/225.0.4.84:7980
 #EXTINF:-1 tvg-id="新疆卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",新疆卫视
-http://14.104.200.54:4022/rtp/235.254.197.178:7980
+http://14.104.26.46:4022/rtp/235.254.197.178:7980
 #EXTINF:-1 tvg-id="新疆卫视HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",新疆卫视HD
-http://113.206.98.150:8888/rtp/225.0.4.60:7980
-http://220.192.128.106:8007/rtp/225.0.4.60:7980
-http://27.11.248.220:8008/rtp/225.0.4.60:7980
-http://27.11.51.73:8008/rtp/225.0.4.60:7980
+http://113.205.171.18:8005/rtp/225.0.4.60:7980
+http://220.192.160.171:10000/rtp/225.0.4.60:7980
 #EXTINF:-1 tvg-id="旅游卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",旅游卫视
-http://14.104.200.54:4022/rtp/235.254.198.176:7980
-http://14.104.200.54:4022/rtp/235.254.199.176:7980
+http://14.104.26.46:4022/rtp/235.254.198.176:7980
+http://14.104.26.46:4022/rtp/235.254.199.176:7980
 #EXTINF:-1 tvg-id="江苏卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/199/408/202104022140_5100156802_H32_1080.webp" group-title="卫视",江苏卫视
-http://14.104.200.54:4022/rtp/235.254.199.64:7980
+http://125.80.80.248:3005/623899368
+http://14.104.26.46:4022/rtp/235.254.199.64:7980
 http://27.12.167.107:1234/623899368
 #EXTINF:-1 tvg-id="江苏卫视HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",江苏卫视HD
-http://113.206.98.150:8888/rtp/225.0.4.79:7980
-http://220.192.128.106:8007/rtp/225.0.4.79:7980
-http://27.11.248.220:8008/rtp/225.0.4.79:7980
-http://27.11.51.73:8008/rtp/225.0.4.79:7980
+http://113.205.171.18:8005/rtp/225.0.4.79:7980
+http://220.192.160.171:10000/rtp/225.0.4.79:7980
 #EXTINF:-1 tvg-id="江西卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/021/492/202303201551_1658134104486_H32_1080.webp" group-title="卫视",江西卫视
-http://14.104.200.54:4022/rtp/235.254.198.190:7980
-http://14.104.200.54:4022/rtp/235.254.199.190:7980
+http://125.80.80.248:3005/783847495
+http://14.104.26.46:4022/rtp/235.254.198.190:7980
+http://14.104.26.46:4022/rtp/235.254.199.190:7980
 http://27.12.167.107:1234/783847495
 #EXTINF:-1 tvg-id="江西卫视HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",江西卫视HD
-http://113.206.98.150:8888/rtp/225.0.4.203:7980
-http://220.192.128.106:8007/rtp/225.0.4.203:7980
-http://27.11.248.220:8008/rtp/225.0.4.203:7980
-http://27.11.51.73:8008/rtp/225.0.4.203:7980
+http://113.205.171.18:8005/rtp/225.0.4.203:7980
+http://220.192.160.171:10000/rtp/225.0.4.203:7980
 #EXTINF:-1 tvg-id="河北卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/316/202512310003_1766556161260_H32_1080.webp" group-title="卫视",河北卫视
-http://14.104.200.54:4022/rtp/235.254.198.184:7980
-http://14.104.200.54:4022/rtp/235.254.199.184:7980
+http://125.80.80.248:3005/962042070
+http://14.104.26.46:4022/rtp/235.254.198.184:7980
+http://14.104.26.46:4022/rtp/235.254.199.184:7980
 http://27.12.167.107:1234/962042070
 #EXTINF:-1 tvg-id="河北卫视HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",河北卫视HD
-http://113.206.98.150:8888/rtp/225.0.4.174:7980
-http://220.192.128.106:8007/rtp/225.0.4.174:7980
-http://27.11.248.220:8008/rtp/225.0.4.174:7980
-http://27.11.51.73:8008/rtp/225.0.4.174:7980
+http://113.205.171.18:8005/rtp/225.0.4.174:7980
+http://220.192.160.171:10000/rtp/225.0.4.174:7980
 #EXTINF:-1 tvg-id="河南卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/021/585/202304031400_1679994692427_H32_1080.webp" group-title="卫视",河南卫视
-http://14.104.200.54:4022/rtp/235.254.198.135:7980
-http://14.104.200.54:4022/rtp/235.254.199.135:7980
+http://125.80.80.248:3005/790187291
+http://14.104.26.46:4022/rtp/235.254.198.135:7980
+http://14.104.26.46:4022/rtp/235.254.199.135:7980
 http://27.12.167.107:1234/790187291
 #EXTINF:-1 tvg-id="浙江卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",浙江卫视
-http://14.104.200.54:4022/rtp/235.254.199.63:7980
+http://14.104.26.46:4022/rtp/235.254.199.63:7980
 #EXTINF:-1 tvg-id="浙江卫视HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",浙江卫视HD
-http://113.206.98.150:8888/rtp/225.0.4.81:7980
-http://220.192.128.106:8007/rtp/225.0.4.81:7980
-http://27.11.248.220:8008/rtp/225.0.4.81:7980
-http://27.11.51.73:8008/rtp/225.0.4.81:7980
+http://113.205.171.18:8005/rtp/225.0.4.81:7980
+http://220.192.160.171:10000/rtp/225.0.4.81:7980
 #EXTINF:-1 tvg-id="海南卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/022/165/202501231715_1658138869802_H32_1080.webp" group-title="卫视",海南卫视
+http://125.80.80.248:3005/947472502
 http://27.12.167.107:1234/947472502
 #EXTINF:-1 tvg-id="海峡卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/183/202507151427_1690875420570_H32_1080.webp" group-title="卫视",海峡卫视
+http://125.80.80.248:3005/849119120
 http://27.12.167.107:1234/849119120
 #EXTINF:-1 tvg-id="深圳卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",深圳卫视
-http://14.104.200.54:4022/rtp/235.254.199.71:7980
+http://14.104.26.46:4022/rtp/235.254.199.71:7980
 #EXTINF:-1 tvg-id="深圳卫视HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",深圳卫视HD
-http://113.206.98.150:8888/rtp/225.0.4.202:7980
-http://220.192.128.106:8007/rtp/225.0.4.202:7980
-http://27.11.248.220:8008/rtp/225.0.4.202:7980
-http://27.11.51.73:8008/rtp/225.0.4.202:7980
+http://113.205.171.18:8005/rtp/225.0.4.202:7980
+http://220.192.160.171:10000/rtp/225.0.4.202:7980
 #EXTINF:-1 tvg-id="湖北卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/022/163/202501231715_1658138615859_H32_1080.webp" group-title="卫视",湖北卫视
-http://14.104.200.54:4022/rtp/235.254.199.72:7980
+http://125.80.80.248:3005/947472496
+http://14.104.26.46:4022/rtp/235.254.199.72:7980
 http://27.12.167.107:1234/947472496
 #EXTINF:-1 tvg-id="湖北卫视HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",湖北卫视HD
-http://113.206.98.150:8888/rtp/225.0.4.217:7980
-http://220.192.128.106:8007/rtp/225.0.4.217:7980
-http://27.11.248.220:8008/rtp/225.0.4.217:7980
-http://27.11.51.73:8008/rtp/225.0.4.217:7980
+http://113.205.171.18:8005/rtp/225.0.4.217:7980
+http://220.192.160.171:10000/rtp/225.0.4.217:7980
 #EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",湖南卫视
-http://14.104.200.54:4022/rtp/235.254.199.62:7980
+http://14.104.26.46:4022/rtp/235.254.199.62:7980
 #EXTINF:-1 tvg-id="湖南卫视HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",湖南卫视HD
-http://113.206.98.150:8888/rtp/225.0.4.75:7980
-http://220.192.128.106:8007/rtp/225.0.4.75:7980
-http://27.11.248.220:8008/rtp/225.0.4.75:7980
-http://27.11.51.73:8008/rtp/225.0.4.75:7980
+http://113.205.171.18:8005/rtp/225.0.4.75:7980
+http://220.192.160.171:10000/rtp/225.0.4.75:7980
 #EXTINF:-1 tvg-id="甘肃卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",甘肃卫视
-http://14.104.200.54:4022/rtp/235.254.197.176:7980
+http://14.104.26.46:4022/rtp/235.254.197.176:7980
 #EXTINF:-1 tvg-id="甘肃卫视HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",甘肃卫视HD
-http://113.206.98.150:8888/rtp/225.0.4.181:7980
-http://220.192.128.106:8007/rtp/225.0.4.181:7980
-http://27.11.248.220:8008/rtp/225.0.4.181:7980
-http://27.11.51.73:8008/rtp/225.0.4.181:7980
+http://113.205.171.18:8005/rtp/225.0.4.181:7980
+http://220.192.160.171:10000/rtp/225.0.4.181:7980
 #EXTINF:-1 tvg-id="西藏卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",西藏卫视
-http://14.104.200.54:4022/rtp/235.254.197.184:7980
+http://14.104.26.46:4022/rtp/235.254.197.184:7980
 #EXTINF:-1 tvg-id="西藏卫视HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",西藏卫视HD
-http://113.206.98.150:8888/rtp/225.0.4.67:7980
-http://220.192.128.106:8007/rtp/225.0.4.67:7980
-http://27.11.248.220:8008/rtp/225.0.4.67:7980
-http://27.11.51.73:8008/rtp/225.0.4.67:7980
+http://113.205.171.18:8005/rtp/225.0.4.67:7980
+http://220.192.160.171:10000/rtp/225.0.4.67:7980
 #EXTINF:-1 tvg-id="贵州卫视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",贵州卫视
-http://14.104.200.54:4022/rtp/235.254.198.185:7980
-http://14.104.200.54:4022/rtp/235.254.199.185:7980
+http://14.104.26.46:4022/rtp/235.254.198.185:7980
+http://14.104.26.46:4022/rtp/235.254.199.185:7980
 #EXTINF:-1 tvg-id="贵州卫视HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",贵州卫视HD
-http://113.206.98.150:8888/rtp/225.0.4.175:7980
-http://220.192.128.106:8007/rtp/225.0.4.175:7980
-http://27.11.248.220:8008/rtp/225.0.4.175:7980
-http://27.11.51.73:8008/rtp/225.0.4.175:7980
+http://113.205.171.18:8005/rtp/225.0.4.175:7980
+http://220.192.160.171:10000/rtp/225.0.4.175:7980
 #EXTINF:-1 tvg-id="辽宁卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/198/202509221600_5101043014_H32_1080.webp" group-title="卫视",辽宁卫视
-http://14.104.200.54:4022/rtp/235.254.199.68:7980
+http://125.80.80.248:3005/630291707
+http://14.104.26.46:4022/rtp/235.254.199.68:7980
 http://27.12.167.107:1234/630291707
 #EXTINF:-1 tvg-id="辽宁卫视HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",辽宁卫视HD
-http://113.206.98.150:8888/rtp/225.0.4.98:7980
-http://220.192.128.106:8007/rtp/225.0.4.98:7980
-http://27.11.248.220:8008/rtp/225.0.4.98:7980
-http://27.11.51.73:8008/rtp/225.0.4.98:7980
+http://113.205.171.18:8005/rtp/225.0.4.98:7980
+http://220.192.160.171:10000/rtp/225.0.4.98:7980
 #EXTINF:-1 tvg-id="重庆卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/305/202512021827_1658131240998_H32_1080.webp" group-title="卫视",重庆卫视
-http://14.104.200.54:4022/rtp/235.254.197.237:7980
+http://125.80.80.248:3005/738910914
+http://14.104.26.46:4022/rtp/235.254.197.237:7980
 http://27.12.167.107:1234/738910914
 #EXTINF:-1 tvg-id="重庆卫视HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",重庆卫视HD
-http://113.206.98.150:8888/rtp/225.0.4.187:7980
-http://220.192.128.106:8007/rtp/225.0.4.187:7980
-http://27.11.248.220:8008/rtp/225.0.4.187:7980
-http://27.11.51.73:8008/rtp/225.0.4.187:7980
+http://113.205.171.18:8005/rtp/225.0.4.187:7980
+http://220.192.160.171:10000/rtp/225.0.4.187:7980
 #EXTINF:-1 tvg-id="陕西卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/020/475/202207191732_1658131370190_H32_1080.webp" group-title="卫视",陕西卫视
+http://125.80.80.248:3005/738910838
 http://27.12.167.107:1234/738910838
 #EXTINF:-1 tvg-id="青海卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/022/166/202501231715_1658138545016_H32_1080.webp" group-title="卫视",青海卫视
+http://125.80.80.248:3005/947472506
 http://27.12.167.107:1234/947472506
 #EXTINF:-1 tvg-id="黑龙江卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/409/202607031044_1782985894869_H32_1080.webp" group-title="卫视",黑龙江卫视
-http://14.104.200.54:4022/rtp/235.254.197.243:7980
-http://14.104.200.54:4022/rtp/235.254.199.70:7980
+http://125.80.80.248:3005/738906901
+http://14.104.26.46:4022/rtp/235.254.197.243:7980
+http://14.104.26.46:4022/rtp/235.254.199.70:7980
 http://27.12.167.107:1234/738906901
 #EXTINF:-1 tvg-id="黑龙江卫视HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",黑龙江卫视HD
-http://113.206.98.150:8888/rtp/225.0.4.201:7980
-http://220.192.128.106:8007/rtp/225.0.4.201:7980
-http://27.11.248.220:8008/rtp/225.0.4.201:7980
-http://27.11.51.73:8008/rtp/225.0.4.201:7980
-#EXTINF:-1 tvg-id="成都网球公开赛 Day1" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/9/16/1000000003671066e6c8.jpg" group-title="体育-明天09-23",ATP 成都网球公开赛 Day1 英文原声 13:00
-http://27.12.167.107:1234/967704893
-#EXTINF:-1 tvg-id="成都网球公开赛 Day1" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/9/16/1000000003671066e6c8.jpg" group-title="体育-明天09-23",ATP 成都网球公开赛 Day1 赛场原声 13:00
-http://27.12.167.107:1234/967704844
-#EXTINF:-1 tvg-id="杭州网球公开赛 Day1" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/9/16/1000000003671066e6c8.jpg" group-title="体育-明天09-23",ATP 杭州网球公开赛 Day1 英文原声 12:00
-http://27.12.167.107:1234/967705305
-#EXTINF:-1 tvg-id="杭州网球公开赛 Day1" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/9/16/1000000003671066e6c8.jpg" group-title="体育-明天09-23",ATP 杭州网球公开赛 Day1 赛场原声 12:00
-http://27.12.167.107:1234/967705290
-#EXTINF:-1 tvg-id="上海虎鲸 VS 厦门海豚" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2026/8/10/100000001517106f3b81.png" group-title="体育-今天09-22",CPB中国棒球城市联赛 上海虎鲸 VS 厦门海豚 清流播出 17:30
-http://27.12.167.107:1234/967674052
-#EXTINF:-1 tvg-id="北京正大龙 VS 深圳蓝袜" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2026/8/10/100000001517106f3b81.png" group-title="体育-明天09-23",CPB中国棒球城市联赛 北京正大龙 VS 深圳蓝袜 清流播出 10:30
+http://113.205.171.18:8005/rtp/225.0.4.201:7980
+http://220.192.160.171:10000/rtp/225.0.4.201:7980
+#EXTINF:-1 tvg-id="成都网球公开赛 Day2" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/9/16/1000000003671066e6c8.jpg" group-title="体育-明天",ATP 成都网球公开赛 Day2 赛场原声 13:00
+http://125.80.80.248:3005/967704921
+http://27.12.167.107:1234/967704921
+#EXTINF:-1 tvg-id="杭州网球公开赛 Day2" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/9/16/1000000003671066e6c8.jpg" group-title="体育-明天",ATP 杭州网球公开赛 Day2 中文解说 13:30
+http://125.80.80.248:3005/967705347
+http://27.12.167.107:1234/967705347
+#EXTINF:-1 tvg-id="杭州网球公开赛 Day2" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/9/16/1000000003671066e6c8.jpg" group-title="体育-明天",ATP 杭州网球公开赛 Day2 赛场原声 13:30
+http://125.80.80.248:3005/967705332
+http://27.12.167.107:1234/967705332
+#EXTINF:-1 tvg-id="上海虎鲸1-3厦门海豚" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2026/8/10/100000001517106f3b81.png" group-title="体育-昨天",CPB中国棒球城市联赛 上海虎鲸1-3厦门海豚 2026赛季CPB中国棒球城市联赛上海赛区全场回放：上海虎鲸1-3厦门海豚（官方解说） 17:30
+http://125.80.80.248:3005/967851914
+http://27.12.167.107:1234/967851914
+#EXTINF:-1 tvg-id="上海虎鲸VS厦门海豚" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2026/8/10/100000001517106f3b81.png" group-title="体育-明天",CPB中国棒球城市联赛 上海虎鲸VS厦门海豚 清流播出 17:30
+http://125.80.80.248:3005/967674149
+http://27.12.167.107:1234/967674149
+#EXTINF:-1 tvg-id="北京正大龙VS深圳蓝袜" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2026/8/10/100000001517106f3b81.png" group-title="体育-今天",CPB中国棒球城市联赛 北京正大龙VS深圳蓝袜 清流播出 10:30
+http://125.80.80.248:3005/967674080
 http://27.12.167.107:1234/967674080
-#EXTINF:-1 tvg-id="厦门海豚 VS 上海虎鲸" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2026/8/10/100000001517106f3b81.png" group-title="体育-明天09-23",CPB中国棒球城市联赛 厦门海豚 VS 上海虎鲸 清流播出 17:30
+#EXTINF:-1 tvg-id="厦门海豚VS上海虎鲸" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2026/8/10/100000001517106f3b81.png" group-title="体育-今天",CPB中国棒球城市联赛 厦门海豚VS上海虎鲸 清流播出 17:30
+http://125.80.80.248:3005/967674088
 http://27.12.167.107:1234/967674088
-#EXTINF:-1 tvg-id="深圳蓝袜 VS 北京正大龙" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2026/8/10/100000001517106f3b81.png" group-title="体育-今天09-22",CPB中国棒球城市联赛 深圳蓝袜 VS 北京正大龙 清流播出 10:30
-http://27.12.167.107:1234/967674046
+#EXTINF:-1 tvg-id="深圳蓝袜7-5北京正大龙" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2026/8/10/100000001517106f3b81.png" group-title="体育-昨天",CPB中国棒球城市联赛 深圳蓝袜7-5北京正大龙 【全场回放】深圳蓝袜7-5北京正大龙（官方解说） 10:30
+http://125.80.80.248:3005/967841556
+http://27.12.167.107:1234/967841556
+#EXTINF:-1 tvg-id="深圳蓝袜VS北京正大龙" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2026/8/10/100000001517106f3b81.png" group-title="体育-明天",CPB中国棒球城市联赛 深圳蓝袜VS北京正大龙 清流播出 10:30
+http://125.80.80.248:3005/967674128
+http://27.12.167.107:1234/967674128
 #EXTINF:-1 tvg-id="上海新闻综合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/325/202512311824_5100001716_H32_1080.webp" group-title="地方",上海新闻综合
+http://125.80.80.248:3005/651632657
 http://27.12.167.107:1234/651632657
 #EXTINF:-1 tvg-id="上海第一财经" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2201/008/312/202209271630_2201008312_H32_1080.webp" group-title="地方",上海第一财经
+http://125.80.80.248:3005/608780988
 http://27.12.167.107:1234/608780988
 #EXTINF:-1 tvg-id="南京十八频道" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/021/864/202307121658_1689146948769_H32_1080.webp" group-title="地方",南京十八频道
+http://125.80.80.248:3005/838151753
 http://27.12.167.107:1234/838151753
 #EXTINF:-1 tvg-id="南京教科频道" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/021/865/202307121700_1689146730747_H32_1080.webp" group-title="地方",南京教科频道
+http://125.80.80.248:3005/838153729
 http://27.12.167.107:1234/838153729
 #EXTINF:-1 tvg-id="南京新闻综合频道" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/021/863/202307121521_1689144372702_H32_1080.webp" group-title="地方",南京新闻综合频道
+http://125.80.80.248:3005/838109047
 http://27.12.167.107:1234/838109047
-#EXTINF:-1 tvg-id="上海久事VSRSSB老虎" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/9/15/10000000132910662d9e.png" group-title="体育-明天09-23",国际篮联洲际杯 上海久事VSRSSB老虎 李天宇 周鹏 15:15
+#EXTINF:-1 tvg-id="上海久事VSRSSB老虎" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/9/15/10000000132910662d9e.png" group-title="体育-今天",国际篮联洲际杯 上海久事VSRSSB老虎 李天宇 周鹏 15:05
+http://125.80.80.248:3005/967819278
 http://27.12.167.107:1234/967819278
-#EXTINF:-1 tvg-id="上海久事VSRSSB老虎" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/9/15/10000000132910662d9e.png" group-title="体育-明天09-23",国际篮联洲际杯 上海久事VSRSSB老虎 英文解说 15:20
+#EXTINF:-1 tvg-id="上海久事VSRSSB老虎" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/9/15/10000000132910662d9e.png" group-title="体育-今天",国际篮联洲际杯 上海久事VSRSSB老虎 英文解说 15:10
+http://125.80.80.248:3005/967819303
 http://27.12.167.107:1234/967819303
-#EXTINF:-1 tvg-id="上海久事VSRSSB老虎" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/9/15/10000000132910662d9e.png" group-title="体育-明天09-23",国际篮联洲际杯 上海久事VSRSSB老虎 赛场原声 15:20
+#EXTINF:-1 tvg-id="上海久事VSRSSB老虎" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/9/15/10000000132910662d9e.png" group-title="体育-今天",国际篮联洲际杯 上海久事VSRSSB老虎 赛场原声 15:10
+http://125.80.80.248:3005/967819291
 http://27.12.167.107:1234/967819291
-#EXTINF:-1 tvg-id="北京控股VSNBA发展联盟联队" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/9/15/10000000132910662d9e.png" group-title="体育-明天09-23",国际篮联洲际杯 北京控股VSNBA发展联盟联队 英文解说 19:20
+#EXTINF:-1 tvg-id="北京控股VSNBA发展联盟联队" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/9/15/10000000132910662d9e.png" group-title="体育-今天",国际篮联洲际杯 北京控股VSNBA发展联盟联队 英文解说 19:10
+http://125.80.80.248:3005/967819716
 http://27.12.167.107:1234/967819716
-#EXTINF:-1 tvg-id="北京控股VSNBA发展联盟联队" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/9/15/10000000132910662d9e.png" group-title="体育-明天09-23",国际篮联洲际杯 北京控股VSNBA发展联盟联队 赛场原声 19:20
+#EXTINF:-1 tvg-id="北京控股VSNBA发展联盟联队" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/9/15/10000000132910662d9e.png" group-title="体育-今天",国际篮联洲际杯 北京控股VSNBA发展联盟联队 赛场原声 19:10
+http://125.80.80.248:3005/967819346
 http://27.12.167.107:1234/967819346
-#EXTINF:-1 tvg-id="北京控股VSNBA发展联盟联队" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/9/15/10000000132910662d9e.png" group-title="体育-明天09-23",国际篮联洲际杯 北京控股VSNBA发展联盟联队 邵化谦 季孟年 19:15
+#EXTINF:-1 tvg-id="北京控股VSNBA发展联盟联队" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/9/15/10000000132910662d9e.png" group-title="体育-今天",国际篮联洲际杯 北京控股VSNBA发展联盟联队 邵化谦 季孟年 19:05
+http://125.80.80.248:3005/967819334
 http://27.12.167.107:1234/967819334
-#EXTINF:-1 tvg-id="北京控股VS博卡青年" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/9/15/10000000132910662d9e.png" group-title="体育-今天09-22",国际篮联洲际杯 北京控股VS博卡青年 英文解说 19:20
-http://27.12.167.107:1234/967819225
-#EXTINF:-1 tvg-id="北京控股VS博卡青年" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/9/15/10000000132910662d9e.png" group-title="体育-今天09-22",国际篮联洲际杯 北京控股VS博卡青年 赛场原声 19:20
-http://27.12.167.107:1234/967819107
-#EXTINF:-1 tvg-id="北京控股VS博卡青年" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/9/15/10000000132910662d9e.png" group-title="体育-今天09-22",国际篮联洲际杯 北京控股VS博卡青年 邵化谦 季孟年 19:15
-http://27.12.167.107:1234/967819099
-#EXTINF:-1 tvg-id="山东教育" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/199/202509241938_1758698577926_H32_1080.webp" group-title="其他",山东教育
+#EXTINF:-1 tvg-id="北京控股VS博卡青年" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/9/15/10000000132910662d9e.png" group-title="体育-昨天",国际篮联洲际杯 北京控股VS博卡青年 全场回放（英文解说） 19:30
+http://125.80.80.248:3005/967853053
+http://27.12.167.107:1234/967853053
+#EXTINF:-1 tvg-id="北京控股VS博卡青年" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/9/15/10000000132910662d9e.png" group-title="体育-昨天",国际篮联洲际杯 北京控股VS博卡青年 全场回放（赛场原声） 19:30
+http://125.80.80.248:3005/967852758
+http://27.12.167.107:1234/967852758
+#EXTINF:-1 tvg-id="北京控股VS博卡青年" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/9/15/10000000132910662d9e.png" group-title="体育-昨天",国际篮联洲际杯 北京控股VS博卡青年 全场回放（邵化谦、季孟年） 19:30
+http://125.80.80.248:3005/967852170
+http://27.12.167.107:1234/967852170
+#EXTINF:-1 tvg-id="维尔纽斯莱塔斯VS上海久事" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/9/15/10000000132910662d9e.png" group-title="体育-明天",国际篮联洲际杯 维尔纽斯莱塔斯VS上海久事 李天宇 周鹏 15:05
+http://125.80.80.248:3005/967819381
+http://27.12.167.107:1234/967819381
+#EXTINF:-1 tvg-id="维尔纽斯莱塔斯VS上海久事" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/9/15/10000000132910662d9e.png" group-title="体育-明天",国际篮联洲际杯 维尔纽斯莱塔斯VS上海久事 英文解说 15:10
+http://125.80.80.248:3005/967819397
+http://27.12.167.107:1234/967819397
+#EXTINF:-1 tvg-id="维尔纽斯莱塔斯VS上海久事" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/9/15/10000000132910662d9e.png" group-title="体育-明天",国际篮联洲际杯 维尔纽斯莱塔斯VS上海久事 赛场原声 15:10
+http://125.80.80.248:3005/967819388
+http://27.12.167.107:1234/967819388
+#EXTINF:-1 tvg-id="山东教育" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/199/202509241938_1758698577926_H32_1080.webp" group-title="教育",山东教育
+http://125.80.80.248:3005/609154353
 http://27.12.167.107:1234/609154353
 #EXTINF:-1 tvg-id="广东珠江频道" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/410/202607031111_1782985700437_H32_1080.webp" group-title="地方",广东珠江频道
+http://125.80.80.248:3005/639731952
 http://27.12.167.107:1234/639731952
+#EXTINF:-1 tvg-id="晋中市102-93运城市" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2026/6/17/100000001493106c8171.png" group-title="体育-昨天",晋超联赛 晋中市102-93运城市 2026赛季山西省男子篮球超级联赛第三阶段第一轮全场回放：晋中市vs运城市（赛场原声） 19:20
+http://125.80.80.248:3005/967857526
+http://27.12.167.107:1234/967857526
 #EXTINF:-1 tvg-id="江苏国际" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/260/577/202104022139_5100186482_H32_1080.webp" group-title="地方",江苏国际
+http://125.80.80.248:3005/626064674
 http://27.12.167.107:1234/626064674
 #EXTINF:-1 tvg-id="江苏城市频道" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/260/508/202104022138_5100186409_H32_1080.webp" group-title="地方",江苏城市频道
+http://125.80.80.248:3005/626064714
 http://27.12.167.107:1234/626064714
 #EXTINF:-1 tvg-id="江苏影视频道" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/260/517/202104022138_5100186424_H32_1080.webp" group-title="地方",江苏影视频道
+http://125.80.80.248:3005/626064697
 http://27.12.167.107:1234/626064697
 #EXTINF:-1 tvg-id="江苏教育" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/287/493/202104022139_5101012819_H32_1080.webp" group-title="地方",江苏教育
+http://125.80.80.248:3005/628008321
 http://27.12.167.107:1234/628008321
 #EXTINF:-1 tvg-id="江苏综艺频道" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/260/513/202104022039_5100186420_H32_1080.webp" group-title="地方",江苏综艺频道
+http://125.80.80.248:3005/626065193
 http://27.12.167.107:1234/626065193
+#EXTINF:-1 tvg-id="临海62-67瑞安" tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2026/09/02/77N92ACGBBVQ.png" group-title="体育-昨天",浙BA 临海62-67瑞安 2026浙江省城市篮球联赛全场回放：临海vs瑞安（赛场原声） 19:30
+http://125.80.80.248:3005/967857861
+http://27.12.167.107:1234/967857861
+#EXTINF:-1 tvg-id="丽水100-64舟山" tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2026/09/02/77N92ACGBBVQ.png" group-title="体育-昨天",浙BA 丽水100-64舟山 2026浙江省城市篮球联赛全场回放：丽水vs舟山（赛场原声） 19:30
+http://125.80.80.248:3005/967857486
+http://27.12.167.107:1234/967857486
 #EXTINF:-1 tvg-id="海南广播电视总台少儿频道" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/328/202605111614_1778232654695_H32_1080.webp" group-title="地方",海南广播电视总台少儿频道
+http://125.80.80.248:3005/962067523
 http://27.12.167.107:1234/962067523
 #EXTINF:-1 tvg-id="海南广播电视总台文旅频道" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/329/202605111613_1778233282865_H32_1080.webp" group-title="地方",海南广播电视总台文旅频道
+http://125.80.80.248:3005/962067526
 http://27.12.167.107:1234/962067526
 #EXTINF:-1 tvg-id="海南广播电视总台新闻频道" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/326/202605111901_1778497030792_H32_1080.webp" group-title="地方",海南广播电视总台新闻频道
+http://125.80.80.248:3005/962067517
 http://27.12.167.107:1234/962067517
 #EXTINF:-1 tvg-id="海南广播电视总台社会与法频道" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/323/202605111613_1778233391251_H32_1080.webp" group-title="地方",海南广播电视总台社会与法频道
+http://125.80.80.248:3005/962045223
 http://27.12.167.107:1234/962045223
 #EXTINF:-1 tvg-id="海南广播电视总台自贸频道" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/324/202605111850_1778496560868_H32_1080.webp" group-title="地方",海南广播电视总台自贸频道
+http://125.80.80.248:3005/962045226
 http://27.12.167.107:1234/962045226
-#EXTINF:-1 tvg-id="武昌鱼杯湘鄂王湖南湖北钓鱼交流赛" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2026/9/20/100000001546106971af.png" group-title="体育-明天09-23",湖南湖北钓鱼交流赛 武昌鱼杯湘鄂王湖南湖北钓鱼交流赛 解说 08:30
+#EXTINF:-1 tvg-id="武昌鱼杯湘鄂王湖南湖北钓鱼交流赛" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2026/9/20/100000001546106971af.png" group-title="体育-今天",湖南湖北钓鱼交流赛 武昌鱼杯湘鄂王湖南湖北钓鱼交流赛 解说 08:30
+http://125.80.80.248:3005/967774886
 http://27.12.167.107:1234/967774886
-#EXTINF:-1 tvg-id="澳门昊骏VS台湾啤酒" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/7/25/100000001221106f665b.jpg" group-title="体育-今天09-22",福建闽港澳台“同心杯”篮球邀请赛 澳门昊骏VS台湾啤酒 清流播出 14:55
-http://27.12.167.107:1234/967678242
-#EXTINF:-1 tvg-id="福建晋江文旅VS澳门昊骏" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/7/25/100000001221106f665b.jpg" group-title="体育-昨天09-21",福建闽港澳台“同心杯”篮球邀请赛 福建晋江文旅VS澳门昊骏 全场回放（赛场原声） 20:25
-http://27.12.167.107:1234/967830406
-#EXTINF:-1 tvg-id="福建晋江文旅VS香港金牛" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/7/25/100000001221106f665b.jpg" group-title="体育-今天09-22",福建闽港澳台“同心杯”篮球邀请赛 福建晋江文旅VS香港金牛 清流播出 19:25
-http://27.12.167.107:1234/967678252
-#EXTINF:-1 tvg-id="香港金牛VS台湾啤酒" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/7/25/100000001221106f665b.jpg" group-title="体育-昨天09-21",福建闽港澳台“同心杯”篮球邀请赛 香港金牛VS台湾啤酒 全场回放（赛场原声） 18:25
-http://27.12.167.107:1234/967829453
+#EXTINF:-1 tvg-id="澳门昊骏VS台湾啤酒" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/7/25/100000001221106f665b.jpg" group-title="体育-昨天",福建闽港澳台“同心杯”篮球邀请赛 澳门昊骏VS台湾啤酒 全场回放（赛场原声） 14:55
+http://125.80.80.248:3005/967848968
+http://27.12.167.107:1234/967848968
+#EXTINF:-1 tvg-id="福建晋江文旅VS香港金牛" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/7/25/100000001221106f665b.jpg" group-title="体育-昨天",福建闽港澳台“同心杯”篮球邀请赛 福建晋江文旅VS香港金牛 全场回放（赛场原声） 19:25
+http://125.80.80.248:3005/967853241
+http://27.12.167.107:1234/967853241
 #EXTINF:-1 tvg-id="重庆娱乐HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",重庆娱乐HD
-http://113.206.98.150:8888/rtp/225.0.4.194:7980
-http://220.192.128.106:8007/rtp/225.0.4.194:7980
-http://27.11.248.220:8008/rtp/225.0.4.194:7980
-http://27.11.51.73:8008/rtp/225.0.4.194:7980
+http://113.205.171.18:8005/rtp/225.0.4.194:7980
+http://220.192.160.171:10000/rtp/225.0.4.194:7980
 #EXTINF:-1 tvg-id="重庆少儿" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",重庆少儿
-http://14.104.200.54:4022/rtp/235.254.198.166:7980
-http://14.104.200.54:4022/rtp/235.254.199.166:7980
+http://14.104.26.46:4022/rtp/235.254.198.166:7980
+http://14.104.26.46:4022/rtp/235.254.199.166:7980
 #EXTINF:-1 tvg-id="重庆影视剧" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",重庆影视剧
-http://14.104.200.54:4022/rtp/235.254.198.180:7980
-http://14.104.200.54:4022/rtp/235.254.199.180:7980
+http://14.104.26.46:4022/rtp/235.254.198.180:7980
+http://14.104.26.46:4022/rtp/235.254.199.180:7980
 #EXTINF:-1 tvg-id="重庆文体娱乐" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",重庆文体娱乐
-http://14.104.200.54:4022/rtp/235.254.198.187:7980
-http://14.104.200.54:4022/rtp/235.254.199.187:7980
+http://14.104.26.46:4022/rtp/235.254.198.187:7980
+http://14.104.26.46:4022/rtp/235.254.199.187:7980
 #EXTINF:-1 tvg-id="重庆新农村" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",重庆新农村
-http://14.104.200.54:4022/rtp/235.254.198.186:7980
-http://14.104.200.54:4022/rtp/235.254.199.186:7980
+http://14.104.26.46:4022/rtp/235.254.198.186:7980
+http://14.104.26.46:4022/rtp/235.254.199.186:7980
 #EXTINF:-1 tvg-id="重庆新闻" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",重庆新闻
-http://14.104.200.54:4022/rtp/235.254.197.199:7980
+http://14.104.26.46:4022/rtp/235.254.197.199:7980
 #EXTINF:-1 tvg-id="重庆新闻HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",重庆新闻HD
-http://113.206.98.150:8888/rtp/225.0.4.188:7980
-http://220.192.128.106:8007/rtp/225.0.4.188:7980
-http://27.11.248.220:8008/rtp/225.0.4.188:7980
-http://27.11.51.73:8008/rtp/225.0.4.188:7980
+http://113.205.171.18:8005/rtp/225.0.4.188:7980
+http://220.192.160.171:10000/rtp/225.0.4.188:7980
 #EXTINF:-1 tvg-id="重庆汽摩" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",重庆汽摩
-http://14.104.200.54:4022/rtp/235.254.198.169:7980
-http://14.104.200.54:4022/rtp/235.254.199.169:7980
+http://14.104.26.46:4022/rtp/235.254.198.169:7980
+http://14.104.26.46:4022/rtp/235.254.199.169:7980
 #EXTINF:-1 tvg-id="重庆社会与法" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",重庆社会与法
-http://14.104.200.54:4022/rtp/235.254.198.181:7980
-http://14.104.200.54:4022/rtp/235.254.199.181:7980
+http://14.104.26.46:4022/rtp/235.254.198.181:7980
+http://14.104.26.46:4022/rtp/235.254.199.181:7980
 #EXTINF:-1 tvg-id="重庆移动" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",重庆移动
-http://14.104.200.54:4022/rtp/235.254.198.170:7980
-http://14.104.200.54:4022/rtp/235.254.199.170:7980
+http://14.104.26.46:4022/rtp/235.254.198.170:7980
+http://14.104.26.46:4022/rtp/235.254.199.170:7980
 #EXTINF:-1 tvg-id="重庆红叶" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",重庆红叶
-http://14.104.200.54:4022/rtp/235.254.198.188:7980
-http://14.104.200.54:4022/rtp/235.254.199.188:7980
+http://14.104.26.46:4022/rtp/235.254.198.188:7980
+http://14.104.26.46:4022/rtp/235.254.199.188:7980
 #EXTINF:-1 tvg-id="重庆红叶HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",重庆红叶HD
-http://113.206.98.150:8888/rtp/225.0.4.193:7980
-http://220.192.128.106:8007/rtp/225.0.4.193:7980
-http://27.11.248.220:8008/rtp/225.0.4.193:7980
-http://27.11.51.73:8008/rtp/225.0.4.193:7980
+http://113.205.171.18:8005/rtp/225.0.4.193:7980
+http://220.192.160.171:10000/rtp/225.0.4.193:7980
 #EXTINF:-1 tvg-id="重庆红岩文化" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",重庆红岩文化
-http://14.104.200.54:4022/rtp/235.254.198.182:7980
-http://14.104.200.54:4022/rtp/235.254.199.182:7980
+http://14.104.26.46:4022/rtp/235.254.198.182:7980
+http://14.104.26.46:4022/rtp/235.254.199.182:7980
 #EXTINF:-1 tvg-id="重庆红岩文化HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",重庆红岩文化HD
-http://113.206.98.150:8888/rtp/225.0.4.196:7980
-http://220.192.128.106:8007/rtp/225.0.4.196:7980
-http://27.11.248.220:8008/rtp/225.0.4.196:7980
-http://27.11.51.73:8008/rtp/225.0.4.196:7980
-#EXTINF:-1 tvg-id="陕西体育休闲频道" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/189/202512011438_1764571080735_H32_1080.webp" group-title="其他",陕西体育休闲频道
+http://113.205.171.18:8005/rtp/225.0.4.196:7980
+http://220.192.160.171:10000/rtp/225.0.4.196:7980
+#EXTINF:-1 tvg-id="陕西体育休闲频道" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/189/202512011438_1764571080735_H32_1080.webp" group-title="体育",陕西体育休闲频道
+http://125.80.80.248:3005/956909356
 http://27.12.167.107:1234/956909356
 #EXTINF:-1 tvg-id="陕西新闻资讯频道" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/187/202512011439_1764571160925_H32_1080.webp" group-title="地方",陕西新闻资讯频道
+http://125.80.80.248:3005/956909289
 http://27.12.167.107:1234/956909289
 #EXTINF:-1 tvg-id="陕西秦腔频道" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/188/202508051741_1754370560985_H32_1080.webp" group-title="地方",陕西秦腔频道
+http://125.80.80.248:3005/956909303
 http://27.12.167.107:1234/956909303
 #EXTINF:-1 tvg-id="陕西都市青春频道" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/190/202508051746_1754371284700_H32_1080.webp" group-title="地方",陕西都市青春频道
+http://125.80.80.248:3005/956909358
 http://27.12.167.107:1234/956909358
 #EXTINF:-1 tvg-id="陕西银龄频道" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/191/202508051746_1754371397446_H32_1080.webp" group-title="地方",陕西银龄频道
+http://125.80.80.248:3005/956909362
 http://27.12.167.107:1234/956909362
-#EXTINF:-1 tvg-id="24小时城市联赛轮播台" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/022/136/202509241340_1758692392561_H32_1080.webp" group-title="其他",24小时城市联赛轮播台
+#EXTINF:-1 tvg-id="24小时城市联赛轮播台" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/022/136/202509241340_1758692392561_H32_1080.webp" group-title="体育",24小时城市联赛轮播台
+http://125.80.80.248:3005/915512915
 http://27.12.167.107:1234/915512915
+#EXTINF:-1 tvg-id="博尔特出战 孙发京PK托米奇" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/9/16/1000000003671066e6c8.jpg" group-title="体育-今天",ATP 博尔特出战 孙发京PK托米奇 中文解说 12:00
+http://125.80.80.248:3005/967705305
+http://27.12.167.107:1234/967705305
+#EXTINF:-1 tvg-id="博尔特出战 孙发京PK托米奇" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/9/16/1000000003671066e6c8.jpg" group-title="体育-今天",ATP 博尔特出战 孙发京PK托米奇 赛场原声 12:00
+http://125.80.80.248:3005/967705290
+http://27.12.167.107:1234/967705290
+#EXTINF:-1 tvg-id="巴埃斯出战 胡佳PK科普里瓦" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/9/16/1000000003671066e6c8.jpg" group-title="体育-今天",ATP 巴埃斯出战 胡佳PK科普里瓦 赛场原声 13:00
+http://125.80.80.248:3005/967704844
+http://27.12.167.107:1234/967704844
 #EXTINF:-1 tvg-id="CGTN" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2202/196/407/202204010052_1642124778350_H32_1080.webp" group-title="央视",CGTN
+http://125.80.80.248:3005/609017205
 http://27.12.167.107:1234/609017205
 #EXTINF:-1 tvg-id="CGTN俄语" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/179/332/202502251558_1740470314603_H32_1080.webp" group-title="央视",CGTN俄语
+http://125.80.80.248:3005/609006446
 http://27.12.167.107:1234/609006446
 #EXTINF:-1 tvg-id="CGTN外语纪录" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/179/356/202502251602_1740470541608_H32_1080.webp" group-title="央视",CGTN外语纪录
+http://125.80.80.248:3005/609006487
 http://27.12.167.107:1234/609006487
 #EXTINF:-1 tvg-id="CGTN法语" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/179/324/202502251559_1740470371334_H32_1080.webp" group-title="央视",CGTN法语
+http://125.80.80.248:3005/609006476
 http://27.12.167.107:1234/609006476
 #EXTINF:-1 tvg-id="CGTN西班牙语" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/179/337/202502251600_1740470437874_H32_1080.webp" group-title="央视",CGTN西班牙语
+http://125.80.80.248:3005/609006450
 http://27.12.167.107:1234/609006450
 #EXTINF:-1 tvg-id="CGTN阿拉伯语" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/179/303/202502251557_1740470230464_H32_1080.webp" group-title="央视",CGTN阿拉伯语
+http://125.80.80.248:3005/609154345
 http://27.12.167.107:1234/609154345
-#EXTINF:-1 tvg-id="CHC动作电影" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/554/795/202308221159_1692676746119_H32_1080.webp" group-title="其他",CHC动作电影
-http://14.104.200.54:4022/rtp/235.254.198.247:7980
-http://14.104.200.54:4022/rtp/235.254.199.247:7980
+#EXTINF:-1 tvg-id="CHC动作电影" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/554/795/202308221159_1692676746119_H32_1080.webp" group-title="影视",CHC动作电影
+http://125.80.80.248:3005/644368714
+http://14.104.26.46:4022/rtp/235.254.198.247:7980
+http://14.104.26.46:4022/rtp/235.254.199.247:7980
 http://27.12.167.107:1234/644368714
 #EXTINF:-1 tvg-id="CHC动作电影HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",CHC动作电影HD
-http://113.206.98.150:8888/rtp/225.0.4.229:7980
-http://220.192.128.106:8007/rtp/225.0.4.229:7980
-http://27.11.248.220:8008/rtp/225.0.4.229:7980
-http://27.11.51.73:8008/rtp/225.0.4.229:7980
-#EXTINF:-1 tvg-id="CHC家庭影院" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/554/911/202308221200_1692676843082_H32_1080.webp" group-title="其他",CHC家庭影院
-http://14.104.200.54:4022/rtp/235.254.198.246:7980
-http://14.104.200.54:4022/rtp/235.254.199.246:7980
+http://113.205.171.18:8005/rtp/225.0.4.229:7980
+http://220.192.160.171:10000/rtp/225.0.4.229:7980
+#EXTINF:-1 tvg-id="CHC家庭影院" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/554/911/202308221200_1692676843082_H32_1080.webp" group-title="影视",CHC家庭影院
+http://125.80.80.248:3005/644368373
+http://14.104.26.46:4022/rtp/235.254.198.246:7980
+http://14.104.26.46:4022/rtp/235.254.199.246:7980
 http://27.12.167.107:1234/644368373
 #EXTINF:-1 tvg-id="CHC家庭影院HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",CHC家庭影院HD
-http://113.206.98.150:8888/rtp/225.0.4.228:7980
-http://220.192.128.106:8007/rtp/225.0.4.228:7980
-http://27.11.248.220:8008/rtp/225.0.4.228:7980
-http://27.11.51.73:8008/rtp/225.0.4.228:7980
-#EXTINF:-1 tvg-id="CHC影迷电影" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/022/176/202504161629_1744788999453_H32_1080.webp" group-title="其他",CHC影迷电影
-http://14.104.200.54:4022/rtp/235.254.198.248:7980
-http://14.104.200.54:4022/rtp/235.254.199.248:7980
+http://113.205.171.18:8005/rtp/225.0.4.228:7980
+http://220.192.160.171:10000/rtp/225.0.4.228:7980
+#EXTINF:-1 tvg-id="CHC影迷电影" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/022/176/202504161629_1744788999453_H32_1080.webp" group-title="影视",CHC影迷电影
+http://125.80.80.248:3005/952383261
+http://14.104.26.46:4022/rtp/235.254.198.248:7980
+http://14.104.26.46:4022/rtp/235.254.199.248:7980
 http://27.12.167.107:1234/952383261
 #EXTINF:-1 tvg-id="CHC影迷电影HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",CHC影迷电影HD
-http://113.206.98.150:8888/rtp/225.0.4.230:7980
-http://220.192.128.106:8007/rtp/225.0.4.230:7980
-http://27.11.248.220:8008/rtp/225.0.4.230:7980
-http://27.11.51.73:8008/rtp/225.0.4.230:7980
+http://113.205.171.18:8005/rtp/225.0.4.230:7980
+http://220.192.160.171:10000/rtp/225.0.4.230:7980
 #EXTINF:-1 tvg-id="IPTV1+" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",IPTV1+
-http://14.104.200.54:4022/rtp/235.254.199.80:7980
+http://14.104.26.46:4022/rtp/235.254.199.80:7980
 #EXTINF:-1 tvg-id="IPTV3" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",IPTV3
-http://14.104.200.54:4022/rtp/235.254.199.13:7980
+http://14.104.26.46:4022/rtp/235.254.199.13:7980
 #EXTINF:-1 tvg-id="IPTV5" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",IPTV5
-http://14.104.200.54:4022/rtp/235.254.199.14:7980
+http://14.104.26.46:4022/rtp/235.254.199.14:7980
 #EXTINF:-1 tvg-id="IPTV7+" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",IPTV7+
-http://14.104.200.54:4022/rtp/235.254.199.83:7980
+http://14.104.26.46:4022/rtp/235.254.199.83:7980
 #EXTINF:-1 tvg-id="IPTV8+(轮播频道)HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",IPTV8+(轮播频道)HD
-http://113.206.98.150:8888/rtp/225.0.4.54:7980
-http://220.192.128.106:8007/rtp/225.0.4.54:7980
-http://27.11.248.220:8008/rtp/225.0.4.54:7980
-http://27.11.51.73:8008/rtp/225.0.4.54:7980
+http://113.205.171.18:8005/rtp/225.0.4.54:7980
+http://220.192.160.171:10000/rtp/225.0.4.54:7980
 #EXTINF:-1 tvg-id="IPTV9+" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",IPTV9+
-http://14.104.200.54:4022/rtp/235.254.199.94:7980
+http://14.104.26.46:4022/rtp/235.254.199.94:7980
 #EXTINF:-1 tvg-id="IPTV10+" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",IPTV10+
-http://14.104.200.54:4022/rtp/235.254.199.119:7980
+http://14.104.26.46:4022/rtp/235.254.199.119:7980
 #EXTINF:-1 tvg-id="IPTV15+" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",IPTV15+
-http://14.104.200.54:4022/rtp/235.254.199.77:7980
+http://14.104.26.46:4022/rtp/235.254.199.77:7980
 #EXTINF:-1 tvg-id="IPTV少儿" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",IPTV少儿
-http://14.104.200.54:4022/rtp/235.254.199.15:7980
+http://14.104.26.46:4022/rtp/235.254.199.15:7980
 #EXTINF:-1 tvg-id="IPTV电视剧" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",IPTV电视剧
-http://14.104.200.54:4022/rtp/235.254.199.74:7980
+http://14.104.26.46:4022/rtp/235.254.199.74:7980
 #EXTINF:-1 tvg-id="IPTV相声小品(轮播频道)HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",IPTV相声小品(轮播频道)HD
-http://113.206.98.150:8888/rtp/225.0.4.56:7980
-http://220.192.128.106:8007/rtp/225.0.4.56:7980
-http://27.11.248.220:8008/rtp/225.0.4.56:7980
-http://27.11.51.73:8008/rtp/225.0.4.56:7980
+http://113.205.171.18:8005/rtp/225.0.4.56:7980
+http://220.192.160.171:10000/rtp/225.0.4.56:7980
 #EXTINF:-1 tvg-id="IPTV野外(轮播频道)HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",IPTV野外(轮播频道)HD
-http://113.206.98.150:8888/rtp/225.0.4.57:7980
-http://220.192.128.106:8007/rtp/225.0.4.57:7980
-http://27.11.248.220:8008/rtp/225.0.4.57:7980
-http://27.11.51.73:8008/rtp/225.0.4.57:7980
-#EXTINF:-1 tvg-id="NBA季后赛精彩重播：森林狼vs马刺 G1" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/1/8/985164a0-1f05-4397-bf24-481207678231.png" group-title="体育-今天09-22",NBA经典赛事 NBA季后赛精彩重播：森林狼vs马刺 G1 姜帆 闫宇峰 季孟年 18:00
-http://27.12.167.107:1234/967701992
-#EXTINF:-1 tvg-id="NBA季后赛精彩重播：湖人vs火箭G6" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/1/8/985164a0-1f05-4397-bf24-481207678231.png" group-title="体育-昨天09-21",NBA经典赛事 NBA季后赛精彩重播：湖人vs火箭G6 全场回放（杨健、马健、周鹏、佳依） 18:00
-http://27.12.167.107:1234/964534703
-#EXTINF:-1 tvg-id="NBA季后赛精彩重播：马刺vs森林狼 G3" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/1/8/985164a0-1f05-4397-bf24-481207678231.png" group-title="体育-明天09-23",NBA经典赛事 NBA季后赛精彩重播：马刺vs森林狼 G3 李天宇 张兆旭 徐咏 18:00
+http://113.205.171.18:8005/rtp/225.0.4.57:7980
+http://220.192.160.171:10000/rtp/225.0.4.57:7980
+#EXTINF:-1 tvg-id="NBA季后赛精彩重播：森林狼vs马刺 G1" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/1/8/985164a0-1f05-4397-bf24-481207678231.png" group-title="体育-昨天",NBA经典赛事 NBA季后赛精彩重播：森林狼vs马刺 G1 全场回放（姜帆、闫宇峰、季孟年、秋童） 18:00
+http://125.80.80.248:3005/964587800
+http://27.12.167.107:1234/964587800
+#EXTINF:-1 tvg-id="NBA季后赛精彩重播：湖人vs雷霆 G1" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/1/8/985164a0-1f05-4397-bf24-481207678231.png" group-title="体育-明天",NBA经典赛事 NBA季后赛精彩重播：湖人vs雷霆 G1 杨健 曾令旭 苏群 18:00
+http://125.80.80.248:3005/967702024
+http://27.12.167.107:1234/967702024
+#EXTINF:-1 tvg-id="NBA季后赛精彩重播：马刺vs森林狼 G3" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2020/1/8/985164a0-1f05-4397-bf24-481207678231.png" group-title="体育-今天",NBA经典赛事 NBA季后赛精彩重播：马刺vs森林狼 G3 李天宇 张兆旭 徐咏 18:00
+http://125.80.80.248:3005/967702007
 http://27.12.167.107:1234/967702007
-#EXTINF:-1 tvg-id="Day3" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/3/7/1000000012341069e1a8.jpg" group-title="体育-明天09-23",WTA Day3 英文原声 13:00
+#EXTINF:-1 tvg-id="大拿挑战赛第七周：周诺韦尼VS黑格" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2026/3/31/1000000005171067c63b.png" group-title="体育-今天",UFC白大拿挑战者系列赛 大拿挑战赛第七周：周诺韦尼VS黑格 何鹏 06:55
+http://125.80.80.248:3005/967834144
+http://27.12.167.107:1234/967834144
+#EXTINF:-1 tvg-id="Day4" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/3/7/1000000012341069e1a8.jpg" group-title="体育-明天",WTA Day4 英文原声 11:00
+http://125.80.80.248:3005/967696552
+http://27.12.167.107:1234/967696552
+#EXTINF:-1 tvg-id="Day4" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/3/7/1000000012341069e1a8.jpg" group-title="体育-明天",WTA Day4 英文原声 13:00
+http://125.80.80.248:3005/967696843
+http://27.12.167.107:1234/967696843
+#EXTINF:-1 tvg-id="Day4" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/3/7/1000000012341069e1a8.jpg" group-title="体育-明天",WTA Day4 解说 11:00
+http://125.80.80.248:3005/967837564
+http://27.12.167.107:1234/967837564
+#EXTINF:-1 tvg-id="Day4" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/3/7/1000000012341069e1a8.jpg" group-title="体育-明天",WTA Day4 解说 13:00
+http://125.80.80.248:3005/967838002
+http://27.12.167.107:1234/967838002
+#EXTINF:-1 tvg-id="Day4" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/3/7/1000000012341069e1a8.jpg" group-title="体育-明天",WTA Day4 赛场原声 11:00
+http://125.80.80.248:3005/967696535
+http://27.12.167.107:1234/967696535
+#EXTINF:-1 tvg-id="Day4" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/3/7/1000000012341069e1a8.jpg" group-title="体育-明天",WTA Day4 赛场原声 13:00
+http://125.80.80.248:3005/967696831
+http://27.12.167.107:1234/967696831
+#EXTINF:-1 tvg-id="安德列娃、帕克斯轮番出战" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/3/7/1000000012341069e1a8.jpg" group-title="体育-今天",WTA 安德列娃、帕克斯轮番出战 同声传译 13:00
+http://125.80.80.248:3005/967837991
+http://27.12.167.107:1234/967837991
+#EXTINF:-1 tvg-id="安德列娃、帕克斯轮番出战" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/3/7/1000000012341069e1a8.jpg" group-title="体育-今天",WTA 安德列娃、帕克斯轮番出战 英文原声 13:00
+http://125.80.80.248:3005/967696808
 http://27.12.167.107:1234/967696808
-#EXTINF:-1 tvg-id="Day3" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/3/7/1000000012341069e1a8.jpg" group-title="体育-明天09-23",WTA Day3 赛场原声 13:00
+#EXTINF:-1 tvg-id="安德列娃、帕克斯轮番出战" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/3/7/1000000012341069e1a8.jpg" group-title="体育-今天",WTA 安德列娃、帕克斯轮番出战 赛场原声 13:00
+http://125.80.80.248:3005/967696799
 http://27.12.167.107:1234/967696799
-#EXTINF:-1 tvg-id="克雷吉茨科娃出战 萨卡里压场亮相" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/3/7/1000000012341069e1a8.jpg" group-title="体育-今天09-22",WTA 克雷吉茨科娃出战 萨卡里压场亮相 英文原声 11:00
-http://27.12.167.107:1234/967696786
-#EXTINF:-1 tvg-id="克雷吉茨科娃出战 萨卡里压场亮相" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/3/7/1000000012341069e1a8.jpg" group-title="体育-今天09-22",WTA 克雷吉茨科娃出战 萨卡里压场亮相 赛场原声 11:00
-http://27.12.167.107:1234/967696767
-#EXTINF:-1 tvg-id="克韦多VS波多罗斯卡" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/3/7/1000000012341069e1a8.jpg" group-title="体育-昨天09-21",WTA 克韦多VS波多罗斯卡 全场回放 02:30
-http://27.12.167.107:1234/967831549
-http://27.12.167.107:1234/967831597
-#EXTINF:-1 tvg-id="克韦多VS波多罗斯卡" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/3/7/1000000012341069e1a8.jpg" group-title="体育-昨天09-21",WTA 克韦多VS波多罗斯卡 全场回放（张文悦） 02:30
-http://27.12.167.107:1234/967831241
+#EXTINF:-1 tvg-id="王欣瑜收获开门红 萨卡里两盘晋级" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/3/7/1000000012341069e1a8.jpg" group-title="体育-昨天",WTA 王欣瑜收获开门红 萨卡里两盘晋级 【女单第1轮】克雷吉茨科娃2-1弗里德萨姆（赛场原声） 14:48
+http://125.80.80.248:3005/967853361
+http://27.12.167.107:1234/967853361
+#EXTINF:-1 tvg-id="王欣瑜收获开门红 萨卡里两盘晋级" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/3/7/1000000012341069e1a8.jpg" group-title="体育-昨天",WTA 王欣瑜收获开门红 萨卡里两盘晋级 【女单第1轮】帕克斯2-0山口芽生（赛场原声） 14:48
+http://125.80.80.248:3005/967840888
+http://27.12.167.107:1234/967840888
+#EXTINF:-1 tvg-id="王欣瑜收获开门红 萨卡里两盘晋级" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/3/7/1000000012341069e1a8.jpg" group-title="体育-昨天",WTA 王欣瑜收获开门红 萨卡里两盘晋级 【女单第1轮】沃尔夫0-2奥利尼科娃（赛场原声） 14:48
+http://125.80.80.248:3005/967837305
+http://27.12.167.107:1234/967837305
+#EXTINF:-1 tvg-id="王欣瑜收获开门红 萨卡里两盘晋级" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/3/7/1000000012341069e1a8.jpg" group-title="体育-昨天",WTA 王欣瑜收获开门红 萨卡里两盘晋级 【女单第1轮】萨卡里2-0弗鲁维尔托娃（赛场原声） 14:48
+http://125.80.80.248:3005/967857066
+http://27.12.167.107:1234/967857066
+#EXTINF:-1 tvg-id="维基奇VS王欣瑜" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/3/7/1000000012341069e1a8.jpg" group-title="体育-昨天",WTA 维基奇VS王欣瑜 【女单第1轮】维基奇0-2王欣瑜（赛场原声） 14:48
+http://125.80.80.248:3005/967847144
+http://27.12.167.107:1234/967847144
+#EXTINF:-1 tvg-id="维基奇VS王欣瑜" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/3/7/1000000012341069e1a8.jpg" group-title="体育-昨天",WTA 维基奇VS王欣瑜 全场回放（蔡凯臣） 14:48
+http://125.80.80.248:3005/967842417
+http://27.12.167.107:1234/967842417
 #EXTINF:-1 tvg-id="上视东方影视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/002/274/202105271333_5100001715_2_H32_1080.webp" group-title="地方",上视东方影视
+http://125.80.80.248:3005/617290047
 http://27.12.167.107:1234/617290047
 #EXTINF:-1 tvg-id="世界地理" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",世界地理
-http://14.104.200.54:4022/rtp/235.254.199.194:7980
+http://14.104.26.46:4022/rtp/235.254.199.194:7980
 #EXTINF:-1 tvg-id="东方财经" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",东方财经
-http://14.104.200.54:4022/rtp/235.254.198.103:7980
-http://14.104.200.54:4022/rtp/235.254.199.103:7980
-#EXTINF:-1 tvg-id="中华特产" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/295/202511061701_1762241728018_H32_1080.webp" group-title="其他",中华特产
+http://14.104.26.46:4022/rtp/235.254.198.103:7980
+http://14.104.26.46:4022/rtp/235.254.199.103:7980
+#EXTINF:-1 tvg-id="中华特产" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/295/202511061701_1762241728018_H32_1080.webp" group-title="纪实",中华特产
+http://125.80.80.248:3005/959986618
 http://27.12.167.107:1234/959986618
 #EXTINF:-1 tvg-id="中国交通" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",中国交通
-http://14.104.200.54:4022/rtp/235.254.197.145:7980
-#EXTINF:-1 tvg-id="围甲联赛第15轮" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2026/5/27/100000001472106214f8.png" group-title="体育-昨天09-21",中国围棋甲级联赛 围甲联赛第15轮 2026中国围棋甲级联赛第15轮全场回放（官方解说） 14:00
-http://27.12.167.107:1234/967826511
-#EXTINF:-1 tvg-id="中国天气" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/296/202511061701_1762241901460_H32_1080.webp" group-title="其他",中国天气
+http://14.104.26.46:4022/rtp/235.254.197.145:7980
+#EXTINF:-1 tvg-id="中国天气" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/296/202511061701_1762241901460_H32_1080.webp" group-title="新闻",中国天气
+http://125.80.80.248:3005/959986621
 http://27.12.167.107:1234/959986621
-#EXTINF:-1 tvg-id="2026第十四届环鄱阳湖国际自行车大赛" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2026/6/25/100000001499106b6db1.png" group-title="体育-昨天09-21",中国自行车运动协会系列赛 2026第十四届环鄱阳湖国际自行车大赛 178559928810928081122026第十四届环鄱阳湖国际自行车大赛全场回放（官方解说） 08:00
-http://27.12.167.107:1234/967822813
-#EXTINF:-1 tvg-id="2026第十四届环鄱阳湖国际自行车大赛" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2026/6/25/100000001499106b6db1.png" group-title="体育-今天09-22",中国自行车运动协会系列赛 2026第十四届环鄱阳湖国际自行车大赛 解说 08:00
+#EXTINF:-1 tvg-id="2026第十四届环鄱阳湖国际自行车大赛" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2026/6/25/100000001499106b6db1.png" group-title="体育-昨天",中国自行车运动协会系列赛 2026第十四届环鄱阳湖国际自行车大赛 2026第十四届环鄱阳湖国际自行车大赛全场回放（官方解说） 08:00
+http://125.80.80.248:3005/967841382
+http://27.12.167.107:1234/967841382
+#EXTINF:-1 tvg-id="2026第十四届环鄱阳湖国际自行车大赛" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2026/6/25/100000001499106b6db1.png" group-title="体育-今天",中国自行车运动协会系列赛 2026第十四届环鄱阳湖国际自行车大赛 解说 08:00
+http://125.80.80.248:3005/967732461
+http://125.80.80.248:3005/967732485
+http://27.12.167.107:1234/967732461
 http://27.12.167.107:1234/967732485
-http://27.12.167.107:1234/967732497
 #EXTINF:-1 tvg-id="中学生" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/019/355/202405081702_1715158115119_H32_1080.webp" group-title="央视",中学生
-http://14.104.200.54:4022/rtp/235.254.197.226:7980
+http://125.80.80.248:3005/708869532
+http://14.104.26.46:4022/rtp/235.254.197.226:7980
 http://27.12.167.107:1234/708869532
 #EXTINF:-1 tvg-id="乐游" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",乐游
-http://14.104.200.54:4022/rtp/235.254.197.153:7980
+http://14.104.26.46:4022/rtp/235.254.197.153:7980
 #EXTINF:-1 tvg-id="优优宝贝" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",优优宝贝
-http://14.104.200.54:4022/rtp/235.254.197.137:7980
+http://14.104.26.46:4022/rtp/235.254.197.137:7980
 #EXTINF:-1 tvg-id="优漫卡通频道" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/260/553/202104022139_5100186455_H32_1080.webp" group-title="地方",优漫卡通频道
+http://125.80.80.248:3005/626064703
 http://27.12.167.107:1234/626064703
-#EXTINF:-1 tvg-id="体坛名栏汇" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/315/687/202204010048_5101034219_H32_1080.webp" group-title="其他",体坛名栏汇
+#EXTINF:-1 tvg-id="体坛名栏汇" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/315/687/202204010048_5101034219_H32_1080.webp" group-title="体育",体坛名栏汇
+http://125.80.80.248:3005/629943305
 http://27.12.167.107:1234/629943305
 #EXTINF:-1 tvg-id="体育休闲频道" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/260/554/202104022139_5100186459_H32_1080.webp" group-title="地方",体育休闲频道
+http://125.80.80.248:3005/626064707
 http://27.12.167.107:1234/626064707
 #EXTINF:-1 tvg-id="光影(轮播频道)HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",光影(轮播频道)HD
-http://113.206.98.150:8888/rtp/225.0.4.162:7980
-http://220.192.128.106:8007/rtp/225.0.4.162:7980
-http://27.11.248.220:8008/rtp/225.0.4.162:7980
-http://27.11.51.73:8008/rtp/225.0.4.162:7980
+http://113.205.171.18:8005/rtp/225.0.4.162:7980
+http://220.192.160.171:10000/rtp/225.0.4.162:7980
 #EXTINF:-1 tvg-id="公共新闻频道" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/260/520/202104022138_5100186429_H32_1080.webp" group-title="地方",公共新闻频道
+http://125.80.80.248:3005/626064693
 http://27.12.167.107:1234/626064693
 #EXTINF:-1 tvg-id="兵器科技" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",兵器科技
-http://14.104.200.54:4022/rtp/235.254.199.202:7980
+http://14.104.26.46:4022/rtp/235.254.199.202:7980
 #EXTINF:-1 tvg-id="军事(轮播频道)HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",军事(轮播频道)HD
-http://113.206.98.150:8888/rtp/225.0.4.154:7980
-http://220.192.128.106:8007/rtp/225.0.4.154:7980
-http://27.11.248.220:8008/rtp/225.0.4.154:7980
-http://27.11.51.73:8008/rtp/225.0.4.154:7980
+http://113.205.171.18:8005/rtp/225.0.4.154:7980
+http://220.192.160.171:10000/rtp/225.0.4.154:7980
 #EXTINF:-1 tvg-id="军旅剧场(轮播频道)HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",军旅剧场(轮播频道)HD
-http://113.206.98.150:8888/rtp/225.0.4.146:7980
-http://220.192.128.106:8007/rtp/225.0.4.146:7980
-http://27.11.248.220:8008/rtp/225.0.4.146:7980
-http://27.11.51.73:8008/rtp/225.0.4.146:7980
-#EXTINF:-1 tvg-id="侯英超、程靖淇、徐晨皓为您复盘" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2026/9/17/100000001544106e79b7.png" group-title="体育-今天09-22",决战亚洲 侯英超、程靖淇、徐晨皓为您复盘 侯英超 程靖淇 徐晨皓 徐铭辰 常新宇 21:00
-http://27.12.167.107:1234/967773549
-#EXTINF:-1 tvg-id="周冠达、侯英超、程靖淇邀您看国乒" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2026/9/17/100000001544106e79b7.png" group-title="体育-明天09-23",决战亚洲 周冠达、侯英超、程靖淇邀您看国乒 周冠达 侯英超 程靖淇 08:40
-http://27.12.167.107:1234/967773219
-#EXTINF:-1 tvg-id="周冠达、侯英超、程靖淇邀您看国乒" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2026/9/17/100000001544106e79b7.png" group-title="体育-今天09-22",决战亚洲 周冠达、侯英超、程靖淇邀您看国乒 周冠达 侯英超 程靖淇 18:00
-http://27.12.167.107:1234/967773236
-#EXTINF:-1 tvg-id="周雨、程靖淇、陈玘为您复盘" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2026/9/17/100000001544106e79b7.png" group-title="体育-明天09-23",决战亚洲 周雨、程靖淇、陈玘为您复盘 陈玘 周雨 程靖淇 胡朔 常新宇 21:00
-http://27.12.167.107:1234/967773538
+http://113.205.171.18:8005/rtp/225.0.4.146:7980
+http://220.192.160.171:10000/rtp/225.0.4.146:7980
+#EXTINF:-1 tvg-id="侯英超、程靖淇、陈玘为您复盘" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2026/9/17/100000001544106e79b7.png" group-title="体育-明天",决战亚洲 侯英超、程靖淇、陈玘为您复盘 胡朔 常新宇 侯英超 程靖淇 陈玘 21:00
+http://125.80.80.248:3005/967679165
+http://27.12.167.107:1234/967679165
+#EXTINF:-1 tvg-id="周冠达、侯英超、程靖淇邀您看国乒" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2026/9/17/100000001544106e79b7.png" group-title="体育-今天",决战亚洲 周冠达、侯英超、程靖淇邀您看国乒 周冠达 侯英超 程靖淇 08:40
+http://125.80.80.248:3005/967679336
+http://125.80.80.248:3005/967679344
+http://27.12.167.107:1234/967679336
+http://27.12.167.107:1234/967679344
+#EXTINF:-1 tvg-id="周冠达、侯英超、程靖淇邀您看国乒" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2026/9/17/100000001544106e79b7.png" group-title="体育-明天",决战亚洲 周冠达、侯英超、程靖淇邀您看国乒 周冠达 侯英超 程靖淇 15:40
+http://125.80.80.248:3005/967824089
+http://27.12.167.107:1234/967824089
+#EXTINF:-1 tvg-id="周雨、程靖淇、陈玘为您复盘" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2026/9/17/100000001544106e79b7.png" group-title="体育-今天",决战亚洲 周雨、程靖淇、陈玘为您复盘 胡朔 常新宇 周雨 程靖淇 陈玘 21:00
+http://125.80.80.248:3005/967679108
+http://27.12.167.107:1234/967679108
 #EXTINF:-1 tvg-id="动作影院(轮播频道)HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",动作影院(轮播频道)HD
-http://113.206.98.150:8888/rtp/225.0.4.170:7980
-http://220.192.128.106:8007/rtp/225.0.4.170:7980
-http://27.11.248.220:8008/rtp/225.0.4.170:7980
-http://27.11.51.73:8008/rtp/225.0.4.170:7980
+http://113.205.171.18:8005/rtp/225.0.4.170:7980
+http://220.192.160.171:10000/rtp/225.0.4.170:7980
 #EXTINF:-1 tvg-id="动漫秀场" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",动漫秀场
-http://14.104.200.54:4022/rtp/235.254.197.152:7980
+http://14.104.26.46:4022/rtp/235.254.197.152:7980
 #EXTINF:-1 tvg-id="动漫秀场HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",动漫秀场HD
-http://113.206.98.150:8888/rtp/225.0.4.236:7980
-http://220.192.128.106:8007/rtp/225.0.4.236:7980
-http://27.11.248.220:8008/rtp/225.0.4.236:7980
-http://27.11.51.73:8008/rtp/225.0.4.236:7980
+http://113.205.171.18:8005/rtp/225.0.4.236:7980
+http://220.192.160.171:10000/rtp/225.0.4.236:7980
 #EXTINF:-1 tvg-id="华数卡通" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",华数卡通
-http://14.104.200.54:4022/rtp/235.254.199.87:7980
+http://14.104.26.46:4022/rtp/235.254.199.87:7980
 #EXTINF:-1 tvg-id="华数电影1" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",华数电影1
-http://14.104.200.54:4022/rtp/235.254.199.116:7980
+http://14.104.26.46:4022/rtp/235.254.199.116:7980
 #EXTINF:-1 tvg-id="华数电影2" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",华数电影2
-http://14.104.200.54:4022/rtp/235.254.199.114:7980
+http://14.104.26.46:4022/rtp/235.254.199.114:7980
 #EXTINF:-1 tvg-id="华数电影3" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",华数电影3
-http://14.104.200.54:4022/rtp/235.254.199.81:7980
+http://14.104.26.46:4022/rtp/235.254.199.81:7980
 #EXTINF:-1 tvg-id="华数电影4" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",华数电影4
-http://14.104.200.54:4022/rtp/235.254.199.98:7980
+http://14.104.26.46:4022/rtp/235.254.199.98:7980
 #EXTINF:-1 tvg-id="华数电影5" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",华数电影5
-http://14.104.200.54:4022/rtp/235.254.199.99:7980
+http://14.104.26.46:4022/rtp/235.254.199.99:7980
 #EXTINF:-1 tvg-id="华数电影6" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",华数电影6
-http://14.104.200.54:4022/rtp/235.254.199.100:7980
+http://14.104.26.46:4022/rtp/235.254.199.100:7980
 #EXTINF:-1 tvg-id="华数电影7" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",华数电影7
-http://14.104.200.54:4022/rtp/235.254.199.101:7980
+http://14.104.26.46:4022/rtp/235.254.199.101:7980
 #EXTINF:-1 tvg-id="华数电视剧1" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",华数电视剧1
-http://14.104.200.54:4022/rtp/235.254.199.115:7980
+http://14.104.26.46:4022/rtp/235.254.199.115:7980
 #EXTINF:-1 tvg-id="华数电视剧2" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",华数电视剧2
-http://14.104.200.54:4022/rtp/235.254.199.16:7980
+http://14.104.26.46:4022/rtp/235.254.199.16:7980
 #EXTINF:-1 tvg-id="华数电视剧3" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",华数电视剧3
-http://14.104.200.54:4022/rtp/235.254.199.117:7980
+http://14.104.26.46:4022/rtp/235.254.199.117:7980
 #EXTINF:-1 tvg-id="华数电视剧4" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",华数电视剧4
-http://14.104.200.54:4022/rtp/235.254.199.113:7980
+http://14.104.26.46:4022/rtp/235.254.199.113:7980
 #EXTINF:-1 tvg-id="华数电视剧5" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",华数电视剧5
-http://14.104.200.54:4022/rtp/235.254.199.75:7980
+http://14.104.26.46:4022/rtp/235.254.199.75:7980
 #EXTINF:-1 tvg-id="华数电视剧6" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",华数电视剧6
-http://14.104.200.54:4022/rtp/235.254.199.76:7980
+http://14.104.26.46:4022/rtp/235.254.199.76:7980
 #EXTINF:-1 tvg-id="华数电视剧7" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",华数电视剧7
-http://14.104.200.54:4022/rtp/235.254.199.91:7980
+http://14.104.26.46:4022/rtp/235.254.199.91:7980
 #EXTINF:-1 tvg-id="华数电视剧8" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",华数电视剧8
-http://14.104.200.54:4022/rtp/235.254.199.97:7980
-#EXTINF:-1 tvg-id="南方影视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2206/173/738/202304081513_2206173738_H32_1080.webp" group-title="其他",南方影视
+http://14.104.26.46:4022/rtp/235.254.199.97:7980
+#EXTINF:-1 tvg-id="南方影视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2206/173/738/202304081513_2206173738_H32_1080.webp" group-title="影视",南方影视
+http://125.80.80.248:3005/614961829
 http://27.12.167.107:1234/614961829
 #EXTINF:-1 tvg-id="南通新闻综合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/178/202506121842_1749617000499_H32_1080.webp" group-title="地方",南通新闻综合
+http://125.80.80.248:3005/955227985
 http://27.12.167.107:1234/955227985
 #EXTINF:-1 tvg-id="卫生健康" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",卫生健康
-http://14.104.200.54:4022/rtp/235.254.197.146:7980
+http://14.104.26.46:4022/rtp/235.254.197.146:7980
 #EXTINF:-1 tvg-id="发现之旅" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/212/893/202405081702_1715158828498_H32_1080.webp" group-title="央视",发现之旅
+http://125.80.80.248:3005/624878970
 http://27.12.167.107:1234/624878970
-#EXTINF:-1 tvg-id="和美乡途轮播台" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/019/525/202504151721_1744708812840_H32_1080.webp" group-title="其他",和美乡途轮播台
+#EXTINF:-1 tvg-id="和美乡途轮播台" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/019/525/202504151721_1744708812840_H32_1080.webp" group-title="影视",和美乡途轮播台
+http://125.80.80.248:3005/713591450
 http://27.12.167.107:1234/713591450
-#EXTINF:-1 tvg-id="undefined" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/10/7/100000001233106a7b6e.png" group-title="体育-今天09-22",咪咕体育日报 undefined 咪咕体育日报 第188期 08:00
-http://27.12.167.107:1234/967157847
-#EXTINF:-1 tvg-id="undefined" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/10/7/100000001233106a7b6e.png" group-title="体育-明天09-23",咪咕体育日报 undefined 咪咕体育日报 第189期 08:00
+#EXTINF:-1 tvg-id="undefined" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/10/7/100000001233106a7b6e.png" group-title="体育-今天",咪咕体育日报 undefined 咪咕体育日报 第189期 08:00
+http://125.80.80.248:3005/967157841
 http://27.12.167.107:1234/967157841
+#EXTINF:-1 tvg-id="undefined" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/10/7/100000001233106a7b6e.png" group-title="体育-明天",咪咕体育日报 undefined 咪咕体育日报 第190期 08:00
+http://125.80.80.248:3005/967157829
+http://27.12.167.107:1234/967157829
 #EXTINF:-1 tvg-id="喜剧影院(轮播频道)HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",喜剧影院(轮播频道)HD
-http://113.206.98.150:8888/rtp/225.0.4.169:7980
-http://220.192.128.106:8007/rtp/225.0.4.169:7980
-http://27.11.248.220:8008/rtp/225.0.4.169:7980
-http://27.11.51.73:8008/rtp/225.0.4.169:7980
-#EXTINF:-1 tvg-id="嘉佳卡通" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2206/172/388/202304101530_2206172388_H32_1080.webp" group-title="其他",嘉佳卡通
+http://113.205.171.18:8005/rtp/225.0.4.169:7980
+http://220.192.160.171:10000/rtp/225.0.4.169:7980
+#EXTINF:-1 tvg-id="嘉佳卡通" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2206/172/388/202304101530_2206172388_H32_1080.webp" group-title="少儿",嘉佳卡通
+http://125.80.80.248:3005/614952364
 http://27.12.167.107:1234/614952364
-#EXTINF:-1 tvg-id="四海钓鱼" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/184/202508040856_5100132656_H32_1080.webp" group-title="其他",四海钓鱼
+#EXTINF:-1 tvg-id="四海钓鱼" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/184/202508040856_5100132656_H32_1080.webp" group-title="体育",四海钓鱼
+http://125.80.80.248:3005/637444975
 http://27.12.167.107:1234/637444975
-#EXTINF:-1 tvg-id="维尔纽斯莱塔斯VSRSSB老虎" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/9/15/10000000132910662d9e.png" group-title="体育-今天09-22",国际篮联洲际杯 维尔纽斯莱塔斯VSRSSB老虎 孙博 15:15
-http://27.12.167.107:1234/967819071
-#EXTINF:-1 tvg-id="维尔纽斯莱塔斯VSRSSB老虎" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/9/15/10000000132910662d9e.png" group-title="体育-今天09-22",国际篮联洲际杯 维尔纽斯莱塔斯VSRSSB老虎 英文解说 15:20
-http://27.12.167.107:1234/967819094
-#EXTINF:-1 tvg-id="维尔纽斯莱塔斯VSRSSB老虎" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/9/15/10000000132910662d9e.png" group-title="体育-今天09-22",国际篮联洲际杯 维尔纽斯莱塔斯VSRSSB老虎 赛场原声 15:20
-http://27.12.167.107:1234/967819079
+#EXTINF:-1 tvg-id="博卡青年VSNBA发展联盟联队" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/9/15/10000000132910662d9e.png" group-title="体育-明天",国际篮联洲际杯 博卡青年VSNBA发展联盟联队 英文解说 19:10
+http://125.80.80.248:3005/967819421
+http://27.12.167.107:1234/967819421
+#EXTINF:-1 tvg-id="博卡青年VSNBA发展联盟联队" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/9/15/10000000132910662d9e.png" group-title="体育-明天",国际篮联洲际杯 博卡青年VSNBA发展联盟联队 赛场原声 19:10
+http://125.80.80.248:3005/967819418
+http://27.12.167.107:1234/967819418
+#EXTINF:-1 tvg-id="博卡青年VSNBA发展联盟联队" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/9/15/10000000132910662d9e.png" group-title="体育-明天",国际篮联洲际杯 博卡青年VSNBA发展联盟联队 连睿 19:05
+http://125.80.80.248:3005/967819406
+http://27.12.167.107:1234/967819406
+#EXTINF:-1 tvg-id="维尔纽斯莱塔斯VSRSSB老虎" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/9/15/10000000132910662d9e.png" group-title="体育-昨天",国际篮联洲际杯 维尔纽斯莱塔斯VSRSSB老虎 全场回放（孙博） 15:10
+http://125.80.80.248:3005/967848410
+http://27.12.167.107:1234/967848410
+#EXTINF:-1 tvg-id="维尔纽斯莱塔斯VSRSSB老虎" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/9/15/10000000132910662d9e.png" group-title="体育-昨天",国际篮联洲际杯 维尔纽斯莱塔斯VSRSSB老虎 全场回放（英文解说） 15:10
+http://125.80.80.248:3005/967849715
+http://27.12.167.107:1234/967849715
+#EXTINF:-1 tvg-id="维尔纽斯莱塔斯VSRSSB老虎" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2025/9/15/10000000132910662d9e.png" group-title="体育-昨天",国际篮联洲际杯 维尔纽斯莱塔斯VSRSSB老虎 全场回放（赛场原声） 15:10
+http://125.80.80.248:3005/967849338
+http://27.12.167.107:1234/967849338
 #EXTINF:-1 tvg-id="地理(轮播频道)HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",地理(轮播频道)HD
-http://113.206.98.150:8888/rtp/225.0.4.149:7980
-http://220.192.128.106:8007/rtp/225.0.4.149:7980
-http://27.11.248.220:8008/rtp/225.0.4.149:7980
-http://27.11.51.73:8008/rtp/225.0.4.149:7980
+http://113.205.171.18:8005/rtp/225.0.4.149:7980
+http://220.192.160.171:10000/rtp/225.0.4.149:7980
 #EXTINF:-1 tvg-id="城市剧场(轮播频道)HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",城市剧场(轮播频道)HD
-http://113.206.98.150:8888/rtp/225.0.4.145:7980
-http://220.192.128.106:8007/rtp/225.0.4.145:7980
-http://27.11.248.220:8008/rtp/225.0.4.145:7980
-http://27.11.51.73:8008/rtp/225.0.4.145:7980
+http://113.205.171.18:8005/rtp/225.0.4.145:7980
+http://220.192.160.171:10000/rtp/225.0.4.145:7980
 #EXTINF:-1 tvg-id="女性时尚" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",女性时尚
-http://14.104.200.54:4022/rtp/235.254.199.195:7980
+http://14.104.26.46:4022/rtp/235.254.199.195:7980
 #EXTINF:-1 tvg-id="宜兴新闻综合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/179/202506121843_1749617094510_H32_1080.webp" group-title="地方",宜兴新闻综合
+http://125.80.80.248:3005/955227996
 http://27.12.167.107:1234/955227996
 #EXTINF:-1 tvg-id="家庭影院(轮播频道)HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",家庭影院(轮播频道)HD
-http://113.206.98.150:8888/rtp/225.0.4.171:7980
-http://220.192.128.106:8007/rtp/225.0.4.171:7980
-http://27.11.248.220:8008/rtp/225.0.4.171:7980
-http://27.11.51.73:8008/rtp/225.0.4.171:7980
+http://113.205.171.18:8005/rtp/225.0.4.171:7980
+http://220.192.160.171:10000/rtp/225.0.4.171:7980
 #EXTINF:-1 tvg-id="宿迁新闻综合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/469/357/202104022141_5102012616_H32_1080.webp" group-title="地方",宿迁新闻综合
+http://125.80.80.248:3005/639731832
 http://27.12.167.107:1234/639731832
 #EXTINF:-1 tvg-id="巫山综合" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",巫山综合
-http://14.104.200.54:4022/rtp/235.254.198.212:7980
-http://14.104.200.54:4022/rtp/235.254.199.212:7980
+http://14.104.26.46:4022/rtp/235.254.198.212:7980
+http://14.104.26.46:4022/rtp/235.254.199.212:7980
 #EXTINF:-1 tvg-id="巫溪综合" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",巫溪综合
-http://14.104.200.54:4022/rtp/235.254.198.215:7980
-http://14.104.200.54:4022/rtp/235.254.199.215:7980
-#EXTINF:-1 tvg-id="建党105周年巡礼" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/019/527/202606181400_1781762407477_H32_1080.webp" group-title="其他",建党105周年巡礼
+http://14.104.26.46:4022/rtp/235.254.198.215:7980
+http://14.104.26.46:4022/rtp/235.254.199.215:7980
+#EXTINF:-1 tvg-id="建党105周年巡礼" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/019/527/202606181400_1781762407477_H32_1080.webp" group-title="影视",建党105周年巡礼
+http://125.80.80.248:3005/713600957
 http://27.12.167.107:1234/713600957
 #EXTINF:-1 tvg-id="开州综合" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",开州综合
-http://14.104.200.54:4022/rtp/235.254.198.203:7980
-http://14.104.200.54:4022/rtp/235.254.199.145:7980
-http://14.104.200.54:4022/rtp/235.254.199.203:7980
+http://14.104.26.46:4022/rtp/235.254.198.203:7980
+http://14.104.26.46:4022/rtp/235.254.199.145:7980
+http://14.104.26.46:4022/rtp/235.254.199.203:7980
 #EXTINF:-1 tvg-id="徐州新闻综合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/469/368/202104022141_5102012620_H32_1080.webp" group-title="地方",徐州新闻综合
+http://125.80.80.248:3005/639731747
 http://27.12.167.107:1234/639731747
-#EXTINF:-1 tvg-id="帕德博恩VS霍芬海姆" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2021/3/3/610655860.png" group-title="体育-昨天09-21",德甲 帕德博恩VS霍芬海姆 全场回放（李霄） 01:15
-http://27.12.167.107:1234/967807333
-#EXTINF:-1 tvg-id="快乐垂钓" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/317/202512290851_1766567876635_H32_1080.webp" group-title="其他",快乐垂钓
-http://14.104.200.54:4022/rtp/235.254.198.191:7980
-http://14.104.200.54:4022/rtp/235.254.199.191:7980
+#EXTINF:-1 tvg-id="快乐垂钓" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/317/202512290851_1766567876635_H32_1080.webp" group-title="体育",快乐垂钓
+http://125.80.80.248:3005/961930263
+http://14.104.26.46:4022/rtp/235.254.198.191:7980
+http://14.104.26.46:4022/rtp/235.254.199.191:7980
 http://27.12.167.107:1234/961930263
 #EXTINF:-1 tvg-id="快乐垂钓HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",快乐垂钓HD
-http://113.206.98.150:8888/rtp/225.0.4.213:7980
-http://220.192.128.106:8007/rtp/225.0.4.213:7980
-http://27.11.248.220:8008/rtp/225.0.4.213:7980
-http://27.11.51.73:8008/rtp/225.0.4.213:7980
+http://113.205.171.18:8005/rtp/225.0.4.213:7980
+http://220.192.160.171:10000/rtp/225.0.4.213:7980
 #EXTINF:-1 tvg-id="怀旧剧场" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",怀旧剧场
-http://14.104.200.54:4022/rtp/235.254.199.205:7980
-#EXTINF:-1 tvg-id="AC米兰VS莱切" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2021/3/3/7106d6fbf.png" group-title="体育-昨天09-21",意甲 AC米兰VS莱切 全场回放（石庆圣、李彦） 02:40
-http://27.12.167.107:1234/967809843
-#EXTINF:-1 tvg-id="尤文图斯VS亚特兰大" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2021/3/3/7106d6fbf.png" group-title="体育-昨天09-21",意甲 尤文图斯VS亚特兰大 全场回放（孙雨轩、刘腾） 23:45
-http://27.12.167.107:1234/967803299
+http://14.104.26.46:4022/rtp/235.254.199.205:7980
 #EXTINF:-1 tvg-id="文物宝库" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",文物宝库
-http://14.104.200.54:4022/rtp/235.254.198.132:7980
-http://14.104.200.54:4022/rtp/235.254.199.132:7980
-#EXTINF:-1 tvg-id="布雷切尔、江俊、贺国强出战" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-今天09-22",斯诺克 布雷切尔、江俊、贺国强出战 1号桌 17:00
-http://27.12.167.107:1234/967726725
-#EXTINF:-1 tvg-id="布雷切尔、江俊、贺国强出战" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-今天09-22",斯诺克 布雷切尔、江俊、贺国强出战 2号桌 17:00
-http://27.12.167.107:1234/967726736
-#EXTINF:-1 tvg-id="布雷切尔、江俊、贺国强出战" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-今天09-22",斯诺克 布雷切尔、江俊、贺国强出战 3号桌 17:00
-http://27.12.167.107:1234/967726756
-#EXTINF:-1 tvg-id="布雷切尔、江俊、贺国强出战" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-今天09-22",斯诺克 布雷切尔、江俊、贺国强出战 4号桌 17:00
-http://27.12.167.107:1234/967726769
-#EXTINF:-1 tvg-id="徐思、龙泽煌、范争一出战" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-明天09-23",斯诺克 徐思、龙泽煌、范争一出战 1号桌 17:00
+http://14.104.26.46:4022/rtp/235.254.198.132:7980
+http://14.104.26.46:4022/rtp/235.254.199.132:7980
+#EXTINF:-1 tvg-id="徐思、龙泽煌、范争一出战" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-今天",斯诺克 徐思、龙泽煌、范争一出战 1号桌 17:00
+http://125.80.80.248:3005/967726809
 http://27.12.167.107:1234/967726809
-#EXTINF:-1 tvg-id="徐思、龙泽煌、范争一出战" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-明天09-23",斯诺克 徐思、龙泽煌、范争一出战 2号桌 17:00
+#EXTINF:-1 tvg-id="徐思、龙泽煌、范争一出战" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-今天",斯诺克 徐思、龙泽煌、范争一出战 2号桌 17:00
+http://125.80.80.248:3005/967726825
 http://27.12.167.107:1234/967726825
-#EXTINF:-1 tvg-id="徐思、龙泽煌、范争一出战" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-明天09-23",斯诺克 徐思、龙泽煌、范争一出战 3号桌 17:00
+#EXTINF:-1 tvg-id="徐思、龙泽煌、范争一出战" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-今天",斯诺克 徐思、龙泽煌、范争一出战 3号桌 17:00
+http://125.80.80.248:3005/967726838
 http://27.12.167.107:1234/967726838
-#EXTINF:-1 tvg-id="徐思、龙泽煌、范争一出战" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-明天09-23",斯诺克 徐思、龙泽煌、范争一出战 4号桌 17:00
+#EXTINF:-1 tvg-id="徐思、龙泽煌、范争一出战" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-今天",斯诺克 徐思、龙泽煌、范争一出战 4号桌 17:00
+http://125.80.80.248:3005/967726852
 http://27.12.167.107:1234/967726852
-#EXTINF:-1 tvg-id="徐思、龙泽煌、范争一出战" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-明天09-23",斯诺克 徐思、龙泽煌、范争一出战 陶哲铭 17:00
+#EXTINF:-1 tvg-id="徐思、龙泽煌、范争一出战" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-今天",斯诺克 徐思、龙泽煌、范争一出战 陶哲铭 17:00
+http://125.80.80.248:3005/967729496
 http://27.12.167.107:1234/967729496
-#EXTINF:-1 tvg-id="赵翰洋轻松晋级 吴安仪4-0傅家俊" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-昨天09-21",斯诺克 赵翰洋轻松晋级 吴安仪4-0傅家俊 26/27赛季斯诺克苏格兰公开赛资格赛第1轮回放：伊安·伯恩斯4-1刘杨（赛场原声） 23:00
-http://27.12.167.107:1234/967831787
-#EXTINF:-1 tvg-id="赵翰洋轻松晋级 吴安仪4-0傅家俊" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-昨天09-21",斯诺克 赵翰洋轻松晋级 吴安仪4-0傅家俊 26/27赛季斯诺克苏格兰公开赛资格赛第1轮回放：杰米·克拉克4-3弗盖尔·奎因（赛场原声） 23:00
-http://27.12.167.107:1234/967831735
-#EXTINF:-1 tvg-id="赵翰洋轻松晋级 吴安仪4-0傅家俊" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-昨天09-21",斯诺克 赵翰洋轻松晋级 吴安仪4-0傅家俊 26/27赛季斯诺克苏格兰公开赛资格赛第1轮回放：莱昂内·克劳利2-4吉米·怀特（赛场原声） 23:00
-http://27.12.167.107:1234/967831726
-#EXTINF:-1 tvg-id="赵翰洋轻松晋级 吴安仪4-0傅家俊" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-昨天09-21",斯诺克 赵翰洋轻松晋级 吴安仪4-0傅家俊 26/27赛季斯诺克苏格兰公开赛资格赛第1轮回放：赵翰洋4-1菲尔·奥凯恩（赛场原声） 23:00
-http://27.12.167.107:1234/967831776
-#EXTINF:-1 tvg-id="赵翰洋轻松晋级 吴安仪4-0傅家俊" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-昨天09-21",斯诺克 赵翰洋轻松晋级 吴安仪4-0傅家俊 【回放】傅家俊0-4吴安仪（朱峰立） 23:00
-http://27.12.167.107:1234/967829638
-#EXTINF:-1 tvg-id="赵翰洋轻松晋级 吴安仪4-0傅家俊" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-昨天09-21",斯诺克 赵翰洋轻松晋级 吴安仪4-0傅家俊 【回放】傅家俊0-4吴安仪（赛场原声） 23:00
-http://27.12.167.107:1234/967830095
-#EXTINF:-1 tvg-id="赵翰洋轻松晋级 吴安仪4-0傅家俊" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-昨天09-21",斯诺克 赵翰洋轻松晋级 吴安仪4-0傅家俊 【回放】刘文炜4-3安德鲁·希金森（赛场原声） 23:00
-http://27.12.167.107:1234/967830574
-#EXTINF:-1 tvg-id="赵翰洋轻松晋级 吴安仪4-0傅家俊" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-昨天09-21",斯诺克 赵翰洋轻松晋级 吴安仪4-0傅家俊 【回放】利亚姆·戴维斯4-1朱利安·勒克莱（赛场原声） 23:00
-http://27.12.167.107:1234/967828444
-#EXTINF:-1 tvg-id="赵翰洋轻松晋级 吴安仪4-0傅家俊" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-昨天09-21",斯诺克 赵翰洋轻松晋级 吴安仪4-0傅家俊 【回放】利亚姆·格雷姆4-3白雨露（卢正浩） 23:00
-http://27.12.167.107:1234/967831509
-#EXTINF:-1 tvg-id="赵翰洋轻松晋级 吴安仪4-0傅家俊" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-昨天09-21",斯诺克 赵翰洋轻松晋级 吴安仪4-0傅家俊 【回放】利亚姆·格雷姆4-3白雨露（赛场原声） 23:00
-http://27.12.167.107:1234/967831595
-#EXTINF:-1 tvg-id="赵翰洋轻松晋级 吴安仪4-0傅家俊" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-昨天09-21",斯诺克 赵翰洋轻松晋级 吴安仪4-0傅家俊 【回放】塔纳瓦特·提拉朋派班4-0保罗·诺里斯（赛场原声） 23:00
-http://27.12.167.107:1234/967827227
-#EXTINF:-1 tvg-id="赵翰洋轻松晋级 吴安仪4-0傅家俊" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-昨天09-21",斯诺克 赵翰洋轻松晋级 吴安仪4-0傅家俊 【回放】大卫·格雷斯4-1肖恩·奥沙利文（赛场原声） 23:00
-http://27.12.167.107:1234/967831590
-#EXTINF:-1 tvg-id="赵翰洋轻松晋级 吴安仪4-0傅家俊" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-昨天09-21",斯诺克 赵翰洋轻松晋级 吴安仪4-0傅家俊 【回放】康纳·本齐4-3安东·卡扎科夫（赛场原声） 23:00
-http://27.12.167.107:1234/967831608
-#EXTINF:-1 tvg-id="赵翰洋轻松晋级 吴安仪4-0傅家俊" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-昨天09-21",斯诺克 赵翰洋轻松晋级 吴安仪4-0傅家俊 【回放】王信伯4-2罗泽涛（赛场原声） 23:00
-http://27.12.167.107:1234/967830900
-#EXTINF:-1 tvg-id="赵翰洋轻松晋级 吴安仪4-0傅家俊" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-昨天09-21",斯诺克 赵翰洋轻松晋级 吴安仪4-0傅家俊 【回放】王信伯4-2罗泽涛（陶哲铭） 23:00
-http://27.12.167.107:1234/967830475
-#EXTINF:-1 tvg-id="赵翰洋轻松晋级 吴安仪4-0傅家俊" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-昨天09-21",斯诺克 赵翰洋轻松晋级 吴安仪4-0傅家俊 【回放】瑞安·埃文斯3-4奥利弗·塞克斯（赛场原声） 23:00
-http://27.12.167.107:1234/967829784
-#EXTINF:-1 tvg-id="赵翰洋轻松晋级 吴安仪4-0傅家俊" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-昨天09-21",斯诺克 赵翰洋轻松晋级 吴安仪4-0傅家俊 【回放】蓝裕豪4-2约书亚·托蒙德（赛场原声） 23:00
-http://27.12.167.107:1234/967831553
-#EXTINF:-1 tvg-id="赵翰洋轻松晋级 吴安仪4-0傅家俊" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-昨天09-21",斯诺克 赵翰洋轻松晋级 吴安仪4-0傅家俊 【回放】马特乌斯·巴拉诺夫斯基4-0帕特里克·惠兰（赛场原声） 23:00
-http://27.12.167.107:1234/967828950
-#EXTINF:-1 tvg-id="新动力量创一流" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/019/523/202506060000_1749138941378_H32_1080.webp" group-title="其他",新动力量创一流
+#EXTINF:-1 tvg-id="高阳4-0贺国强 江俊、姚朋成晋级" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-昨天",斯诺克 高阳4-0贺国强 江俊、姚朋成晋级 【回放】乔丹·布朗4-0史蒂文·沃德罗珀（赛场原声） 23:00
+http://125.80.80.248:3005/967858051
+http://27.12.167.107:1234/967858051
+#EXTINF:-1 tvg-id="高阳4-0贺国强 江俊、姚朋成晋级" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-昨天",斯诺克 高阳4-0贺国强 江俊、姚朋成晋级 【回放】亚伦·希尔4-2安东尼·科瓦尔斯基（赛场原声） 23:00
+http://125.80.80.248:3005/967851351
+http://27.12.167.107:1234/967851351
+#EXTINF:-1 tvg-id="高阳4-0贺国强 江俊、姚朋成晋级" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-昨天",斯诺克 高阳4-0贺国强 江俊、姚朋成晋级 【回放】利亚姆·海菲尔德1-4姚朋成（赛场原声） 23:00
+http://125.80.80.248:3005/967858022
+http://27.12.167.107:1234/967858022
+#EXTINF:-1 tvg-id="高阳4-0贺国强 江俊、姚朋成晋级" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-昨天",斯诺克 高阳4-0贺国强 江俊、姚朋成晋级 【回放】卢卡·布雷切尔4-0巩晨智（柏林） 23:00
+http://125.80.80.248:3005/967852120
+http://27.12.167.107:1234/967852120
+#EXTINF:-1 tvg-id="高阳4-0贺国强 江俊、姚朋成晋级" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-昨天",斯诺克 高阳4-0贺国强 江俊、姚朋成晋级 【回放】卢卡·布雷切尔4-0巩晨智（赛场原声） 23:00
+http://125.80.80.248:3005/967852536
+http://27.12.167.107:1234/967852536
+#EXTINF:-1 tvg-id="高阳4-0贺国强 江俊、姚朋成晋级" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-昨天",斯诺克 高阳4-0贺国强 江俊、姚朋成晋级 【回放】吉米·罗伯逊4-2斯蒂芬·霍尔沃斯（赛场原声） 23:00
+http://125.80.80.248:3005/967858218
+http://27.12.167.107:1234/967858218
+#EXTINF:-1 tvg-id="高阳4-0贺国强 江俊、姚朋成晋级" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-昨天",斯诺克 高阳4-0贺国强 江俊、姚朋成晋级 【回放】奥利弗·莱恩斯4-1阿什利·卡蒂（赛场原声） 23:00
+http://125.80.80.248:3005/967858193
+http://27.12.167.107:1234/967858193
+#EXTINF:-1 tvg-id="高阳4-0贺国强 江俊、姚朋成晋级" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-昨天",斯诺克 高阳4-0贺国强 江俊、姚朋成晋级 【回放】斯坦·穆迪4-1杰克·博威克（赛场原声） 23:00
+http://125.80.80.248:3005/967858038
+http://27.12.167.107:1234/967858038
+#EXTINF:-1 tvg-id="高阳4-0贺国强 江俊、姚朋成晋级" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-昨天",斯诺克 高阳4-0贺国强 江俊、姚朋成晋级 【回放】斯科特·唐纳森4-2米歇尔·曼恩（赛场原声） 23:00
+http://125.80.80.248:3005/967857963
+http://27.12.167.107:1234/967857963
+#EXTINF:-1 tvg-id="高阳4-0贺国强 江俊、姚朋成晋级" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-昨天",斯诺克 高阳4-0贺国强 江俊、姚朋成晋级 【回放】本·沃拉斯顿4-2亚历山大·乌尔森巴赫（赛场原声） 23:00
+http://125.80.80.248:3005/967858083
+http://27.12.167.107:1234/967858083
+#EXTINF:-1 tvg-id="高阳4-0贺国强 江俊、姚朋成晋级" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-昨天",斯诺克 高阳4-0贺国强 江俊、姚朋成晋级 【回放】本·默滕斯3-4尤里安·博伊科（赛场原声） 23:00
+http://125.80.80.248:3005/967853367
+http://27.12.167.107:1234/967853367
+#EXTINF:-1 tvg-id="高阳4-0贺国强 江俊、姚朋成晋级" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-昨天",斯诺克 高阳4-0贺国强 江俊、姚朋成晋级 【回放】江俊4-1奥利弗·布朗（卢正浩） 23:00
+http://125.80.80.248:3005/967857944
+http://27.12.167.107:1234/967857944
+#EXTINF:-1 tvg-id="高阳4-0贺国强 江俊、姚朋成晋级" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-昨天",斯诺克 高阳4-0贺国强 江俊、姚朋成晋级 【回放】江俊4-1奥利弗·布朗（赛场原声） 23:00
+http://125.80.80.248:3005/967858010
+http://27.12.167.107:1234/967858010
+#EXTINF:-1 tvg-id="高阳4-0贺国强 江俊、姚朋成晋级" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-昨天09-22",斯诺克 高阳4-0贺国强 江俊、姚朋成晋级 【回放】瑞恩·戴4-3米哈乌·苏巴尔奇克（赛场原声） 23:00
+http://27.12.167.107:1234/967858233
+#EXTINF:-1 tvg-id="高阳4-0贺国强 江俊、姚朋成晋级" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-昨天",斯诺克 高阳4-0贺国强 江俊、姚朋成晋级 【回放】贺国强0-4高阳（赛场原声） 23:00
+http://125.80.80.248:3005/967858207
+http://27.12.167.107:1234/967858207
+#EXTINF:-1 tvg-id="高阳4-0贺国强 江俊、姚朋成晋级" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-昨天",斯诺克 高阳4-0贺国强 江俊、姚朋成晋级 【回放】路易·希斯科特3-4恰查蓬·纳萨（赛场原声） 23:00
+http://125.80.80.248:3005/967852093
+http://27.12.167.107:1234/967852093
+#EXTINF:-1 tvg-id="高阳4-0贺国强 江俊、姚朋成晋级" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-昨天",斯诺克 高阳4-0贺国强 江俊、姚朋成晋级 【回放】辛格·查达2-4迪伦·埃莫里（赛场原声） 23:00
+http://125.80.80.248:3005/967853703
+http://27.12.167.107:1234/967853703
+#EXTINF:-1 tvg-id="高阳4-0贺国强 江俊、姚朋成晋级" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2024/1/16/100000001001106678f6.jpg" group-title="体育-昨天",斯诺克 高阳4-0贺国强 江俊、姚朋成晋级 【回放】马修·史蒂文斯4-3弗洛里安·努斯勒（赛场原声） 23:00
+http://125.80.80.248:3005/967857466
+http://27.12.167.107:1234/967857466
+#EXTINF:-1 tvg-id="新动力量创一流" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/019/523/202506060000_1749138941378_H32_1080.webp" group-title="纪实",新动力量创一流
+http://125.80.80.248:3005/713589837
 http://27.12.167.107:1234/713589837
-#EXTINF:-1 tvg-id="新片放映厅" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/035/175/202405061742_1714988159903_H32_1080.webp" group-title="其他",新片放映厅
+#EXTINF:-1 tvg-id="新片放映厅" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/035/175/202405061742_1714988159903_H32_1080.webp" group-title="影视",新片放映厅
+http://125.80.80.248:3005/619495952
 http://27.12.167.107:1234/619495952
 #EXTINF:-1 tvg-id="星影(轮播频道)HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",星影(轮播频道)HD
-http://113.206.98.150:8888/rtp/225.0.4.172:7980
-http://220.192.128.106:8007/rtp/225.0.4.172:7980
-http://27.11.248.220:8008/rtp/225.0.4.172:7980
-http://27.11.51.73:8008/rtp/225.0.4.172:7980
-#EXTINF:-1 tvg-id="晋中市VS运城市" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2026/6/17/100000001493106c8171.png" group-title="体育-今天09-22",晋超联赛 晋中市VS运城市 赛场原声 19:20
-http://27.12.167.107:1234/967779988
-#EXTINF:-1 tvg-id="最强综艺趴" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/315/654/202204010047_5101034202_H32_1080.webp" group-title="其他",最强综艺趴
+http://113.205.171.18:8005/rtp/225.0.4.172:7980
+http://220.192.160.171:10000/rtp/225.0.4.172:7980
+#EXTINF:-1 tvg-id="阳泉市VS吕梁市" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2026/6/17/100000001493106c8171.png" group-title="体育-明天",晋超联赛 阳泉市VS吕梁市 赛场原声 19:20
+http://125.80.80.248:3005/967779995
+http://27.12.167.107:1234/967779995
+#EXTINF:-1 tvg-id="最强综艺趴" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/315/654/202204010047_5101034202_H32_1080.webp" group-title="综艺",最强综艺趴
+http://125.80.80.248:3005/629942228
 http://27.12.167.107:1234/629942228
-#EXTINF:-1 tvg-id="梨园频道" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/344/202604101045_1774936529944_H32_1080.webp" group-title="其他",梨园频道
-http://14.104.200.54:4022/rtp/235.254.198.163:7980
-http://14.104.200.54:4022/rtp/235.254.199.163:7980
+#EXTINF:-1 tvg-id="梨园频道" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/344/202604101045_1774936529944_H32_1080.webp" group-title="纪实",梨园频道
+http://125.80.80.248:3005/961930369
+http://14.104.26.46:4022/rtp/235.254.198.163:7980
+http://14.104.26.46:4022/rtp/235.254.199.163:7980
 http://27.12.167.107:1234/961930369
 #EXTINF:-1 tvg-id="欢笑剧场" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",欢笑剧场
-http://14.104.200.54:4022/rtp/235.254.197.150:7980
+http://14.104.26.46:4022/rtp/235.254.197.150:7980
 #EXTINF:-1 tvg-id="武侠剧场(轮播频道)HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",武侠剧场(轮播频道)HD
-http://113.206.98.150:8888/rtp/225.0.4.168:7980
-http://220.192.128.106:8007/rtp/225.0.4.168:7980
-http://27.11.248.220:8008/rtp/225.0.4.168:7980
-http://27.11.51.73:8008/rtp/225.0.4.168:7980
-#EXTINF:-1 tvg-id="武术世界" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/201/202509251348_1758698474363_H32_1080.webp" group-title="其他",武术世界
-http://14.104.200.54:4022/rtp/235.254.198.107:7980
-http://14.104.200.54:4022/rtp/235.254.199.107:7980
+http://113.205.171.18:8005/rtp/225.0.4.168:7980
+http://220.192.160.171:10000/rtp/225.0.4.168:7980
+#EXTINF:-1 tvg-id="武术世界" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/201/202509251348_1758698474363_H32_1080.webp" group-title="体育",武术世界
+http://125.80.80.248:3005/958475359
+http://14.104.26.46:4022/rtp/235.254.198.107:7980
+http://14.104.26.46:4022/rtp/235.254.199.107:7980
 http://27.12.167.107:1234/958475359
+#EXTINF:-1 tvg-id="中国VS意大利" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2026/7/7/1000000013271065c3d3.png" group-title="体育-明天",比利简金杯 中国VS意大利 赛场原声 18:55
+http://125.80.80.248:3005/967776862
+http://27.12.167.107:1234/967776862
+#EXTINF:-1 tvg-id="乌克兰VS比利时" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2026/7/7/1000000013271065c3d3.png" group-title="体育-明天",比利简金杯 乌克兰VS比利时 赛场原声 09:55
+http://125.80.80.248:3005/967776897
+http://27.12.167.107:1234/967776897
+#EXTINF:-1 tvg-id="捷克VS英国" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2026/7/7/1000000013271065c3d3.png" group-title="体育-昨天",比利简金杯 捷克VS英国 【回放】布兹科娃2-1卡塔尔（赛场原声） 10:00
+http://125.80.80.248:3005/967852273
+http://27.12.167.107:1234/967852273
+#EXTINF:-1 tvg-id="捷克VS英国" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2026/7/7/1000000013271065c3d3.png" group-title="体育-昨天",比利简金杯 捷克VS英国 【回放】诺斯科娃2-0博尔特（赛场原声） 10:00
+http://125.80.80.248:3005/967853634
+http://27.12.167.107:1234/967853634
+#EXTINF:-1 tvg-id="西班牙VS哈萨克斯坦" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2026/7/7/1000000013271065c3d3.png" group-title="体育-今天",比利简金杯 西班牙VS哈萨克斯坦 赛场原声 18:55
+http://125.80.80.248:3005/967776903
+http://27.12.167.107:1234/967776903
+#EXTINF:-1 tvg-id="训练场Day2" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2026/7/7/1000000013271065c3d3.png" group-title="体育-今天",比利简金杯 训练场Day2 训练场 10:00
+http://125.80.80.248:3005/967818763
+http://27.12.167.107:1234/967818763
+#EXTINF:-1 tvg-id="训练场Day3" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2026/7/7/1000000013271065c3d3.png" group-title="体育-明天",比利简金杯 训练场Day3 训练场 10:00
+http://125.80.80.248:3005/967820825
+http://27.12.167.107:1234/967820825
 #EXTINF:-1 tvg-id="求索记录" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",求索记录
-http://14.104.200.54:4022/rtp/235.254.198.251:7980
-http://14.104.200.54:4022/rtp/235.254.199.251:7980
+http://14.104.26.46:4022/rtp/235.254.198.251:7980
+http://14.104.26.46:4022/rtp/235.254.199.251:7980
 #EXTINF:-1 tvg-id="求索记录HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",求索记录HD
-http://113.206.98.150:8888/rtp/225.0.4.232:7980
-http://220.192.128.106:8007/rtp/225.0.4.232:7980
-http://27.11.248.220:8008/rtp/225.0.4.232:7980
-http://27.11.51.73:8008/rtp/225.0.4.232:7980
+http://113.205.171.18:8005/rtp/225.0.4.232:7980
+http://220.192.160.171:10000/rtp/225.0.4.232:7980
 #EXTINF:-1 tvg-id="江阴新闻综合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/177/202506121842_1749616874292_H32_1080.webp" group-title="地方",江阴新闻综合
+http://125.80.80.248:3005/955227979
 http://27.12.167.107:1234/955227979
 #EXTINF:-1 tvg-id="法治天地" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",法治天地
-http://14.104.200.54:4022/rtp/235.254.197.154:7980
-#EXTINF:-1 tvg-id="马赛VS巴黎圣日耳曼" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2026/4/1/9106077d9.png" group-title="体育-昨天09-21",法甲 马赛VS巴黎圣日耳曼 全场回放（AI智慧观赛） 02:30
-http://27.12.167.107:1234/967810151
-#EXTINF:-1 tvg-id="马赛VS巴黎圣日耳曼" tvg-logo="https://img.cmvideo.cn/sports/uploadImages/2026/4/1/9106077d9.png" group-title="体育-昨天09-21",法甲 马赛VS巴黎圣日耳曼 全场回放（鹿中原、王宇） 02:30
-http://27.12.167.107:1234/967808965
+http://14.104.26.46:4022/rtp/235.254.197.154:7980
 #EXTINF:-1 tvg-id="泰州新闻综合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/469/354/202104071213_5102012615_H32_1080.webp" group-title="地方",泰州新闻综合
+http://125.80.80.248:3005/639731818
 http://27.12.167.107:1234/639731818
-#EXTINF:-1 tvg-id="临海VS瑞安" tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2026/09/02/77N92ACGBBVQ.png" group-title="体育-今天09-22",浙BA 临海VS瑞安 赛场原声 19:30
-http://27.12.167.107:1234/967697092
-#EXTINF:-1 tvg-id="丽水VS舟山" tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2026/09/02/77N92ACGBBVQ.png" group-title="体育-今天09-22",浙BA 丽水VS舟山 赛场原声 19:30
-http://27.12.167.107:1234/967697130
-#EXTINF:-1 tvg-id="永康VS绍兴" tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2026/09/02/77N92ACGBBVQ.png" group-title="体育-明天09-23",浙BA 永康VS绍兴 赛场原声 19:30
+#EXTINF:-1 tvg-id="宁波VS云和" tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2026/09/02/77N92ACGBBVQ.png" group-title="体育-明天",浙BA 宁波VS云和 赛场原声 19:30
+http://125.80.80.248:3005/967697180
+http://27.12.167.107:1234/967697180
+#EXTINF:-1 tvg-id="富阳VS湖州" tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2026/09/02/77N92ACGBBVQ.png" group-title="体育-明天",浙BA 富阳VS湖州 赛场原声 19:30
+http://125.80.80.248:3005/967697165
+http://27.12.167.107:1234/967697165
+#EXTINF:-1 tvg-id="永康VS绍兴" tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2026/09/02/77N92ACGBBVQ.png" group-title="体育-今天",浙BA 永康VS绍兴 赛场原声 19:30
+http://125.80.80.248:3005/967697143
 http://27.12.167.107:1234/967697143
-#EXTINF:-1 tvg-id="苍南VS嘉兴" tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2026/09/02/77N92ACGBBVQ.png" group-title="体育-明天09-23",浙BA 苍南VS嘉兴 赛场原声 19:30
+#EXTINF:-1 tvg-id="苍南VS嘉兴" tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2026/09/02/77N92ACGBBVQ.png" group-title="体育-今天",浙BA 苍南VS嘉兴 赛场原声 19:30
+http://125.80.80.248:3005/967697155
 http://27.12.167.107:1234/967697155
 #EXTINF:-1 tvg-id="淮安新闻综合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/469/363/202104022141_5102012618_H32_1080.webp" group-title="地方",淮安新闻综合
+http://125.80.80.248:3005/639731826
 http://27.12.167.107:1234/639731826
 #EXTINF:-1 tvg-id="游戏直播" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",游戏直播
-http://14.104.200.54:4022/rtp/235.254.198.134:7980
-http://14.104.200.54:4022/rtp/235.254.198.161:7980
-http://14.104.200.54:4022/rtp/235.254.199.134:7980
-http://14.104.200.54:4022/rtp/235.254.199.161:7980
+http://14.104.26.46:4022/rtp/235.254.198.134:7980
+http://14.104.26.46:4022/rtp/235.254.198.161:7980
+http://14.104.26.46:4022/rtp/235.254.199.134:7980
+http://14.104.26.46:4022/rtp/235.254.199.161:7980
 #EXTINF:-1 tvg-id="游戏风云" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",游戏风云
-http://14.104.200.54:4022/rtp/235.254.197.159:7980
+http://14.104.26.46:4022/rtp/235.254.197.159:7980
 #EXTINF:-1 tvg-id="溧水新闻综合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/469/349/202506201638_1750408486645_H32_1080.webp" group-title="地方",溧水新闻综合
+http://125.80.80.248:3005/639737327
 http://27.12.167.107:1234/639737327
 #EXTINF:-1 tvg-id="热播剧场(轮播频道)HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",热播剧场(轮播频道)HD
-http://113.206.98.150:8888/rtp/225.0.4.47:7980
-http://220.192.128.106:8007/rtp/225.0.4.47:7980
-http://27.11.248.220:8008/rtp/225.0.4.47:7980
-http://27.11.51.73:8008/rtp/225.0.4.47:7980
-#EXTINF:-1 tvg-id="熊猫频道1" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/200/699/202209211759_2200200699_H32_1080.webp" group-title="其他",熊猫频道1
+http://113.205.171.18:8005/rtp/225.0.4.47:7980
+http://220.192.160.171:10000/rtp/225.0.4.47:7980
+#EXTINF:-1 tvg-id="熊猫频道1" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/200/699/202209211759_2200200699_H32_1080.webp" group-title="熊猫",熊猫频道1
+http://125.80.80.248:3005/608933610
 http://27.12.167.107:1234/608933610
-#EXTINF:-1 tvg-id="熊猫频道01高清" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2202/634/723/202206081044_2202634723_H32_1080.webp" group-title="其他",熊猫频道01高清
+#EXTINF:-1 tvg-id="熊猫频道01高清" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2202/634/723/202206081044_2202634723_H32_1080.webp" group-title="熊猫",熊猫频道01高清
+http://125.80.80.248:3005/609158151
 http://27.12.167.107:1234/609158151
-#EXTINF:-1 tvg-id="熊猫频道2" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/200/717/202209211759_2200200717_H32_1080.webp" group-title="其他",熊猫频道2
+#EXTINF:-1 tvg-id="熊猫频道2" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/200/717/202209211759_2200200717_H32_1080.webp" group-title="熊猫",熊猫频道2
+http://125.80.80.248:3005/608933640
 http://27.12.167.107:1234/608933640
-#EXTINF:-1 tvg-id="熊猫频道3" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/200/738/202209211759_2200200738_H32_1080.webp" group-title="其他",熊猫频道3
+#EXTINF:-1 tvg-id="熊猫频道3" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/200/738/202209211759_2200200738_H32_1080.webp" group-title="熊猫",熊猫频道3
+http://125.80.80.248:3005/608934619
 http://27.12.167.107:1234/608934619
-#EXTINF:-1 tvg-id="熊猫频道4" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/200/771/202209211800_2200200771_H32_1080.webp" group-title="其他",熊猫频道4
+#EXTINF:-1 tvg-id="熊猫频道4" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/200/771/202209211800_2200200771_H32_1080.webp" group-title="熊猫",熊猫频道4
+http://125.80.80.248:3005/608934721
 http://27.12.167.107:1234/608934721
-#EXTINF:-1 tvg-id="熊猫频道5" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/200/791/202209211800_2200200791_H32_1080.webp" group-title="其他",熊猫频道5
+#EXTINF:-1 tvg-id="熊猫频道5" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/200/791/202209211800_2200200791_H32_1080.webp" group-title="熊猫",熊猫频道5
+http://125.80.80.248:3005/608935104
 http://27.12.167.107:1234/608935104
-#EXTINF:-1 tvg-id="熊猫频道6" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/200/817/202209211800_2200200817_H32_1080.webp" group-title="其他",熊猫频道6
+#EXTINF:-1 tvg-id="熊猫频道6" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/200/817/202209211800_2200200817_H32_1080.webp" group-title="熊猫",熊猫频道6
+http://125.80.80.248:3005/608935797
 http://27.12.167.107:1234/608935797
-#EXTINF:-1 tvg-id="熊猫频道7" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/192/831/202209211800_2200192831_H32_1080.webp" group-title="其他",熊猫频道7
+#EXTINF:-1 tvg-id="熊猫频道7" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/192/831/202209211800_2200192831_H32_1080.webp" group-title="熊猫",熊猫频道7
+http://125.80.80.248:3005/609169286
 http://27.12.167.107:1234/609169286
-#EXTINF:-1 tvg-id="熊猫频道8" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/192/881/202209211800_2200192881_H32_1080.webp" group-title="其他",熊猫频道8
+#EXTINF:-1 tvg-id="熊猫频道8" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/192/881/202209211800_2200192881_H32_1080.webp" group-title="熊猫",熊猫频道8
+http://125.80.80.248:3005/609169287
 http://27.12.167.107:1234/609169287
-#EXTINF:-1 tvg-id="熊猫频道9" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/192/899/202209211800_2200192899_H32_1080.webp" group-title="其他",熊猫频道9
+#EXTINF:-1 tvg-id="熊猫频道9" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/192/899/202209211800_2200192899_H32_1080.webp" group-title="熊猫",熊猫频道9
+http://125.80.80.248:3005/609169226
 http://27.12.167.107:1234/609169226
-#EXTINF:-1 tvg-id="熊猫频道10" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/192/937/202209211800_2200192937_H32_1080.webp" group-title="其他",熊猫频道10
+#EXTINF:-1 tvg-id="熊猫频道10" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/192/937/202209211800_2200192937_H32_1080.webp" group-title="熊猫",熊猫频道10
+http://125.80.80.248:3005/609169285
 http://27.12.167.107:1234/609169285
 #EXTINF:-1 tvg-id="爱电影(轮播频道)HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",爱电影(轮播频道)HD
-http://113.206.98.150:8888/rtp/225.0.4.50:7980
-http://220.192.128.106:8007/rtp/225.0.4.50:7980
-http://27.11.248.220:8008/rtp/225.0.4.50:7980
-http://27.11.51.73:8008/rtp/225.0.4.50:7980
+http://113.205.171.18:8005/rtp/225.0.4.50:7980
+http://220.192.160.171:10000/rtp/225.0.4.50:7980
 #EXTINF:-1 tvg-id="爱综艺(轮播频道)HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",爱综艺(轮播频道)HD
-http://113.206.98.150:8888/rtp/225.0.4.51:7980
-http://220.192.128.106:8007/rtp/225.0.4.51:7980
-http://27.11.248.220:8008/rtp/225.0.4.51:7980
-http://27.11.51.73:8008/rtp/225.0.4.51:7980
-#EXTINF:-1 tvg-id="环球旅游" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/200/202509251348_1758698362959_H32_1080.webp" group-title="其他",环球旅游
+http://113.205.171.18:8005/rtp/225.0.4.51:7980
+http://220.192.160.171:10000/rtp/225.0.4.51:7980
+#EXTINF:-1 tvg-id="环球旅游" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/200/202509251348_1758698362959_H32_1080.webp" group-title="纪实",环球旅游
+http://125.80.80.248:3005/958475356
 http://27.12.167.107:1234/958475356
 #EXTINF:-1 tvg-id="生活时尚" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",生活时尚
-http://14.104.200.54:4022/rtp/235.254.197.160:7980
+http://14.104.26.46:4022/rtp/235.254.197.160:7980
 #EXTINF:-1 tvg-id="电影4" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",电影4
-http://14.104.200.54:4022/rtp/235.254.199.95:7980
+http://14.104.26.46:4022/rtp/235.254.199.95:7980
 #EXTINF:-1 tvg-id="电视指南" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",电视指南
-http://14.104.200.54:4022/rtp/235.254.199.189:7980
+http://14.104.26.46:4022/rtp/235.254.199.189:7980
 #EXTINF:-1 tvg-id="百事通宣传" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",百事通宣传
-http://14.104.200.54:4022/rtp/235.254.197.130:7980
-http://14.104.200.54:4022/rtp/235.254.197.131:7980
-http://14.104.200.54:4022/rtp/235.254.197.132:7980
-http://14.104.200.54:4022/rtp/235.254.197.133:7980
-http://14.104.200.54:4022/rtp/235.254.197.134:7980
-http://14.104.200.54:4022/rtp/235.254.197.135:7980
-http://14.104.200.54:4022/rtp/235.254.197.136:7980
-http://14.104.200.54:4022/rtp/235.254.197.233:7980
-http://14.104.200.54:4022/rtp/235.254.197.236:7980
+http://14.104.26.46:4022/rtp/235.254.197.130:7980
+http://14.104.26.46:4022/rtp/235.254.197.131:7980
+http://14.104.26.46:4022/rtp/235.254.197.132:7980
+http://14.104.26.46:4022/rtp/235.254.197.133:7980
+http://14.104.26.46:4022/rtp/235.254.197.134:7980
+http://14.104.26.46:4022/rtp/235.254.197.135:7980
+http://14.104.26.46:4022/rtp/235.254.197.136:7980
+http://14.104.26.46:4022/rtp/235.254.197.233:7980
+http://14.104.26.46:4022/rtp/235.254.197.236:7980
 #EXTINF:-1 tvg-id="百事通宣传2" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",百事通宣传2
-http://14.104.200.54:4022/rtp/235.254.197.235:7980
+http://14.104.26.46:4022/rtp/235.254.197.235:7980
 #EXTINF:-1 tvg-id="盐城新闻综合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/469/360/202212301654_5102012617_H32_1080.webp" group-title="地方",盐城新闻综合
+http://125.80.80.248:3005/639731825
 http://27.12.167.107:1234/639731825
 #EXTINF:-1 tvg-id="第一剧场" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",第一剧场
-http://14.104.200.54:4022/rtp/235.254.199.211:7980
+http://14.104.26.46:4022/rtp/235.254.199.211:7980
 #EXTINF:-1 tvg-id="精彩导视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",精彩导视
-http://14.104.200.54:4022/rtp/235.254.197.127:7980
-http://14.104.200.54:4022/rtp/235.254.199.250:7980
+http://14.104.26.46:4022/rtp/235.254.197.127:7980
+http://14.104.26.46:4022/rtp/235.254.199.250:7980
 #EXTINF:-1 tvg-id="精彩影视HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",精彩影视HD
-http://113.206.98.150:8888/rtp/225.0.4.231:7980
-http://220.192.128.106:8007/rtp/225.0.4.231:7980
-http://27.11.248.220:8008/rtp/225.0.4.231:7980
-http://27.11.51.73:8008/rtp/225.0.4.231:7980
+http://113.205.171.18:8005/rtp/225.0.4.231:7980
+http://220.192.160.171:10000/rtp/225.0.4.231:7980
 #EXTINF:-1 tvg-id="精选(轮播频道)HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",精选(轮播频道)HD
-http://113.206.98.150:8888/rtp/225.0.4.152:7980
-http://220.192.128.106:8007/rtp/225.0.4.152:7980
-http://27.11.248.220:8008/rtp/225.0.4.152:7980
-http://27.11.51.73:8008/rtp/225.0.4.152:7980
+http://113.205.171.18:8005/rtp/225.0.4.152:7980
+http://220.192.160.171:10000/rtp/225.0.4.152:7980
 #EXTINF:-1 tvg-id="精采导视" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",精采导视
-http://14.104.200.54:4022/rtp/235.254.198.250:7980
-#EXTINF:-1 tvg-id="经典动画大集合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/315/652/202204010055_5101034205_H32_1080.webp" group-title="其他",经典动画大集合
+http://14.104.26.46:4022/rtp/235.254.198.250:7980
+#EXTINF:-1 tvg-id="经典动画大集合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/315/652/202204010055_5101034205_H32_1080.webp" group-title="少儿",经典动画大集合
+http://125.80.80.248:3005/629942219
 http://27.12.167.107:1234/629942219
 #EXTINF:-1 tvg-id="经典电影(轮播频道)HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",经典电影(轮播频道)HD
-http://113.206.98.150:8888/rtp/225.0.4.48:7980
-http://220.192.128.106:8007/rtp/225.0.4.48:7980
-http://27.11.248.220:8008/rtp/225.0.4.48:7980
-http://27.11.51.73:8008/rtp/225.0.4.48:7980
-#EXTINF:-1 tvg-id="经典香港电影" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/242/089/202508211805_1755769511908_H32_1080.webp" group-title="其他",经典香港电影
+http://113.205.171.18:8005/rtp/225.0.4.48:7980
+http://220.192.160.171:10000/rtp/225.0.4.48:7980
+#EXTINF:-1 tvg-id="经典香港电影" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/242/089/202508211805_1755769511908_H32_1080.webp" group-title="影视",经典香港电影
+http://125.80.80.248:3005/625703337
 http://27.12.167.107:1234/625703337
 #EXTINF:-1 tvg-id="老故事" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/022/002/202405081702_1715158648861_H32_1080.webp" group-title="央视",老故事
+http://125.80.80.248:3005/884121956
 http://27.12.167.107:1234/884121956
 #EXTINF:-1 tvg-id="茶频道" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",茶频道
-http://14.104.200.54:4022/rtp/235.254.198.198:7980
-http://14.104.200.54:4022/rtp/235.254.199.198:7980
-#EXTINF:-1 tvg-id="拉科鲁尼亚VS皇家贝蒂斯" tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2026/04/21/779JJMOFB20H.png" group-title="体育-昨天09-21",西甲 拉科鲁尼亚VS皇家贝蒂斯 全场回放（兰子非） 00:15
-http://27.12.167.107:1234/967803617
-#EXTINF:-1 tvg-id="比利亚雷亚尔VS莱万特" tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2026/04/21/779JJMOFB20H.png" group-title="体育-昨天09-21",西甲 比利亚雷亚尔VS莱万特 全场回放（周楚雄） 00:15
-http://27.12.167.107:1234/967804337
-#EXTINF:-1 tvg-id="瓦伦西亚VS皇家社会" tvg-logo="https://img.cmvideo.cn/publish/noms_wc/nomsworldcup/2026/04/21/779JJMOFB20H.png" group-title="体育-昨天09-21",西甲 瓦伦西亚VS皇家社会 全场回放（梁祥宇） 02:45
-http://27.12.167.107:1234/967809868
+http://14.104.26.46:4022/rtp/235.254.198.198:7980
+http://14.104.26.46:4022/rtp/235.254.199.198:7980
 #EXTINF:-1 tvg-id="财富天下" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/193/202508061552_1754385779498_H32_1080.webp" group-title="地方",财富天下
+http://125.80.80.248:3005/956923159
 http://27.12.167.107:1234/956923159
-#EXTINF:-1 tvg-id="赛事最经典" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/592/947/202204010047_5101034296_H32_1080.webp" group-title="其他",赛事最经典
+#EXTINF:-1 tvg-id="赛事最经典" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/592/947/202204010047_5101034296_H32_1080.webp" group-title="体育",赛事最经典
+http://125.80.80.248:3005/646596895
 http://27.12.167.107:1234/646596895
 #EXTINF:-1 tvg-id="连云港新闻综合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/469/369/202104022140_5102012621_H32_1080.webp" group-title="地方",连云港新闻综合
+http://125.80.80.248:3005/639731715
 http://27.12.167.107:1234/639731715
 #EXTINF:-1 tvg-id="都市剧场" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",都市剧场
-http://14.104.200.54:4022/rtp/235.254.197.151:7980
+http://14.104.26.46:4022/rtp/235.254.197.151:7980
 #EXTINF:-1 tvg-id="都市剧场HD" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆联通",都市剧场HD
-http://113.206.98.150:8888/rtp/225.0.4.235:7980
-http://220.192.128.106:8007/rtp/225.0.4.235:7980
-http://27.11.248.220:8008/rtp/225.0.4.235:7980
-http://27.11.51.73:8008/rtp/225.0.4.235:7980
+http://113.205.171.18:8005/rtp/225.0.4.235:7980
+http://220.192.160.171:10000/rtp/225.0.4.235:7980
 #EXTINF:-1 tvg-id="重广融媒" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",重广融媒
-http://14.104.200.54:4022/rtp/235.254.197.114:7980
+http://14.104.26.46:4022/rtp/235.254.197.114:7980
 #EXTINF:-1 tvg-id="金色学堂" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",金色学堂
-http://14.104.200.54:4022/rtp/235.254.197.157:7980
+http://14.104.26.46:4022/rtp/235.254.197.157:7980
 #EXTINF:-1 tvg-id="镇江新闻综合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/469/365/202104022141_5102012619_H32_1080.webp" group-title="地方",镇江新闻综合
+http://125.80.80.248:3005/639731783
 http://27.12.167.107:1234/639731783
 #EXTINF:-1 tvg-id="风云剧场" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",风云剧场
-http://14.104.200.54:4022/rtp/235.254.199.207:7980
+http://14.104.26.46:4022/rtp/235.254.199.207:7980
 #EXTINF:-1 tvg-id="风云足球" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",风云足球
-http://14.104.200.54:4022/rtp/235.254.199.204:7980
+http://14.104.26.46:4022/rtp/235.254.199.204:7980
 #EXTINF:-1 tvg-id="风云音乐" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",风云音乐
-http://14.104.200.54:4022/rtp/235.254.199.118:7980
-http://14.104.200.54:4022/rtp/235.254.199.208:7980
+http://14.104.26.46:4022/rtp/235.254.199.118:7980
+http://14.104.26.46:4022/rtp/235.254.199.208:7980
 #EXTINF:-1 tvg-id="高尔夫网球" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/.png" group-title="重庆组播 重庆电信",高尔夫网球
-http://14.104.200.54:4022/rtp/235.254.199.192:7980
+http://14.104.26.46:4022/rtp/235.254.199.192:7980
