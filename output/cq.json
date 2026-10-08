@@ -1,53 +1,50 @@
 {
-  "generated_at": "2026-10-07T01:13:10.631341+00:00",
+  "generated_at": "2026-10-08T01:35:46.526150+00:00",
   "region": "",
   "from_cache": false,
   "stats": {
-    "total": 5,
-    "ok": 5,
-    "fail": 0,
-    "failed_ips": []
+    "total": 6,
+    "ok": 4,
+    "fail": 2,
+    "failed_ips": [
+      "222.249.112.237",
+      "14.110.230.129"
+    ]
   },
-  "total_channels": 199,
+  "total_channels": 390,
   "sources": [
     {
-      "ip": "222.249.112.237",
+      "ip": "14.95.200.204",
       "type": "重庆组播 重庆电信",
       "channels": 340,
-      "m3u_api": "https://iptv.cqshushu.com/index.php?s=_3o21Y5RrFcU40x7RC9qmQ&t=multicast&channels=1&download=m3u"
+      "m3u_api": "https://iptv.cqshushu.com/index.php?s=mFLwjdCx7fI73H2bICcQLA&t=multicast&channels=1&download=m3u"
+    },
+    {
+      "ip": "14.136.27.129",
+      "type": "重庆组播 重庆电信",
+      "channels": 340,
+      "m3u_api": "https://iptv.cqshushu.com/index.php?s=thAmt-eZ_-k4xDM7JHeGNQ&t=multicast&channels=1&download=m3u"
+    },
+    {
+      "ip": "14.154.224.204",
+      "type": "重庆咪咕 重庆电信",
+      "channels": 306,
+      "m3u_api": "https://iptv.cqshushu.com/index.php?s=uxRJcQJo6oAJ6JQxE_QvkQ&t=multicast&channels=1&download=m3u"
     },
     {
       "ip": "14.85.230.211",
       "type": "重庆组播 重庆电信",
       "channels": 340,
       "m3u_api": "https://iptv.cqshushu.com/index.php?s=8_BAMo5fO3zSPiqut1DIfg&t=multicast&channels=1&download=m3u"
-    },
-    {
-      "ip": "14.110.230.129",
-      "type": "重庆组播 重庆电信",
-      "channels": 340,
-      "m3u_api": "https://iptv.cqshushu.com/index.php?s=PunP6Oq98TbidAlZmwxkFg&t=multicast&channels=1&download=m3u"
-    },
-    {
-      "ip": "27.65.52.95",
-      "type": "重庆组播 重庆联通",
-      "channels": 167,
-      "m3u_api": "https://iptv.cqshushu.com/index.php?s=WPs_6QJ2jNWUw1RhDYLxBQ&t=multicast&channels=1&download=m3u"
-    },
-    {
-      "ip": "14.152.200.92",
-      "type": "重庆组播 重庆电信",
-      "channels": 340,
-      "m3u_api": "https://iptv.cqshushu.com/index.php?s=1n6Uw_r3VQf0p_H2UNyLNw&t=multicast&channels=1&download=m3u"
     }
   ],
-  "blacklisted": 740,
-  "merged_from_lines": 786,
+  "blacklisted": 493,
+  "merged_from_lines": 820,
   "categories": {
-    "CCTV": 41,
-    "卫视": 51,
-    "地方台": 14,
-    "其他": 93
+    "CCTV": 43,
+    "卫视": 36,
+    "地方台": 48,
+    "其他": 263
   },
-  "processed_at": "2026-10-07T01:13:10.757532+00:00"
+  "processed_at": "2026-10-08T01:35:46.646735+00:00"
 }
