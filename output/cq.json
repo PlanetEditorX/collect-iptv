@@ -1,24 +1,34 @@
 {
-  "generated_at": "2026-10-17T23:48:49.090979+00:00",
+  "generated_at": "2026-10-18T23:57:59.544397+00:00",
   "region": "",
   "from_cache": false,
   "stats": {
     "total": 6,
-    "ok": 3,
-    "fail": 3,
+    "ok": 5,
+    "fail": 1,
     "failed_ips": [
-      "27.111.173.29",
-      "222.227.112.146",
-      "27.106.249.101"
+      "27.5.248.66"
     ]
   },
   "total_channels": 199,
   "sources": [
     {
-      "ip": "27.5.248.66",
-      "type": "重庆组播 重庆联通",
-      "channels": 167,
-      "m3u_api": "https://iptv.cqshushu.com/index.php?s=NZi4WyrTH4EvJeZ61xFSOA&t=multicast&channels=1&download=m3u"
+      "ip": "222.115.112.94",
+      "type": "重庆组播 重庆电信",
+      "channels": 340,
+      "m3u_api": "https://iptv.cqshushu.com/index.php?s=UwZCuXXcU2sWILc9YuBwcg&t=multicast&channels=1&download=m3u"
+    },
+    {
+      "ip": "14.131.23.176",
+      "type": "重庆组播 重庆电信",
+      "channels": 340,
+      "m3u_api": "https://iptv.cqshushu.com/index.php?s=wqNc0TcpOlor-fBXbH2giA&t=multicast&channels=1&download=m3u"
+    },
+    {
+      "ip": "14.166.200.113",
+      "type": "重庆组播 重庆电信",
+      "channels": 340,
+      "m3u_api": "https://iptv.cqshushu.com/index.php?s=W3kBH8zqYWHbKLh1xTVBEg&t=multicast&channels=1&download=m3u"
     },
     {
       "ip": "27.124.60.198",
@@ -27,19 +37,19 @@
       "m3u_api": "https://iptv.cqshushu.com/index.php?s=og2658ixb26y1bodqSMGBQ&t=multicast&channels=1&download=m3u"
     },
     {
-      "ip": "222.133.112.238",
-      "type": "重庆重庆渝北区组播 重庆电信",
-      "channels": 340,
-      "m3u_api": "https://iptv.cqshushu.com/index.php?s=zhpvhbX9jmXVc8YW4mGrlg&t=multicast&channels=1&download=m3u"
+      "ip": "211.54.154.190",
+      "type": "重庆组播 重庆联通",
+      "channels": 167,
+      "m3u_api": "https://iptv.cqshushu.com/index.php?s=ErE780q3ZZSoHz8E1_ihoQ&t=multicast&channels=1&download=m3u"
     }
   ],
-  "blacklisted": 353,
-  "merged_from_lines": 319,
+  "blacklisted": 675,
+  "merged_from_lines": 677,
   "categories": {
     "CCTV": 41,
     "卫视": 51,
     "地方台": 14,
     "其他": 93
   },
-  "processed_at": "2026-10-17T23:48:49.201323+00:00"
+  "processed_at": "2026-10-18T23:57:59.671881+00:00"
 }
