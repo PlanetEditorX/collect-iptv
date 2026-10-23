@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T00:25:16.722715+00:00",
+  "generated_at": "2026-10-23T00:26:33.006792+00:00",
   "region": "",
   "from_cache": false,
   "stats": {
@@ -7,44 +7,44 @@
     "ok": 4,
     "fail": 2,
     "failed_ips": [
-      "222.115.112.94",
-      "14.131.23.176"
+      "27.244.251.173",
+      "222.83.112.186"
     ]
   },
-  "total_channels": 533,
+  "total_channels": 199,
   "sources": [
     {
-      "ip": "222.83.112.186",
+      "ip": "27.65.48.251",
+      "type": "重庆组播 重庆联通",
+      "channels": 167,
+      "m3u_api": "https://iptv.cqshushu.com/index.php?s=fNG-M8paqV2bVj4K_kfqVw&t=multicast&channels=1&download=m3u"
+    },
+    {
+      "ip": "27.160.248.97",
+      "type": "重庆组播 重庆联通",
+      "channels": 167,
+      "m3u_api": "https://iptv.cqshushu.com/index.php?s=cNiJJYLvLx1lO5kVZeo61w&t=multicast&channels=1&download=m3u"
+    },
+    {
+      "ip": "222.212.112.84",
       "type": "重庆组播 重庆电信",
       "channels": 340,
-      "m3u_api": "https://iptv.cqshushu.com/index.php?s=uV5zLNBrHMVuJPiTgiaGug&t=multicast&channels=1&download=m3u"
+      "m3u_api": "https://iptv.cqshushu.com/index.php?s=l0vLf9lv1xc4vg54MOOfpg&t=multicast&channels=1&download=m3u"
     },
     {
       "ip": "27.98.61.137",
       "type": "重庆组播 重庆联通",
       "channels": 167,
       "m3u_api": "https://iptv.cqshushu.com/index.php?s=wgGKoLWxPcwrnNPgeT07SQ&t=multicast&channels=1&download=m3u"
-    },
-    {
-      "ip": "220.29.115.200",
-      "type": "重庆咪咕 重庆联通",
-      "channels": 359,
-      "m3u_api": "https://iptv.cqshushu.com/index.php?s=TTqZ4RoTiiRoPQZA72NqOg&t=multicast&channels=1&download=m3u"
-    },
-    {
-      "ip": "14.166.200.113",
-      "type": "重庆组播 重庆电信",
-      "channels": 340,
-      "m3u_api": "https://iptv.cqshushu.com/index.php?s=W3kBH8zqYWHbKLh1xTVBEg&t=multicast&channels=1&download=m3u"
     }
   ],
-  "blacklisted": 0,
-  "merged_from_lines": 533,
+  "blacklisted": 449,
+  "merged_from_lines": 389,
   "categories": {
-    "CCTV": 60,
-    "卫视": 59,
-    "地方台": 84,
-    "其他": 330
+    "CCTV": 41,
+    "卫视": 51,
+    "地方台": 14,
+    "其他": 93
   },
-  "processed_at": "2026-10-22T00:27:01.754216+00:00"
+  "processed_at": "2026-10-23T00:26:33.100723+00:00"
 }
