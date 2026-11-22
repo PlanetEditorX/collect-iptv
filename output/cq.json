@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T03:05:06.149602+00:00",
+  "generated_at": "2026-11-22T02:00:04.637156+00:00",
   "region": "",
   "from_cache": false,
   "stats": {
@@ -10,17 +10,17 @@
       "113.94.68.169",
       "116.159.36.43",
       "14.71.24.17",
-      "27.176.212.130",
-      "27.85.211.68"
+      "27.85.211.68",
+      "27.176.212.130"
     ]
   },
   "total_channels": 70,
   "sources": [
     {
-      "ip": "113.10.97.252",
+      "ip": "113.239.72.48",
       "type": "重庆组播 重庆联通",
       "channels": 167,
-      "m3u_api": "https://iptv.cqshushu.com/index.php?s=nHCI2Z2IvB48U9Ry2s4COw&t=multicast&channels=1&download=m3u"
+      "m3u_api": "https://iptv.cqshushu.com/index.php?s=uEQfm5qfrH7H2NTMpMUVww&t=multicast&channels=1&download=m3u"
     }
   ],
   "blacklisted": 96,
@@ -31,5 +31,5 @@
     "地方台": 4,
     "其他": 26
   },
-  "processed_at": "2026-11-21T03:05:06.232825+00:00"
+  "processed_at": "2026-11-22T02:00:04.738965+00:00"
 }
